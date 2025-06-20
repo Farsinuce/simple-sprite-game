@@ -1,0 +1,5193 @@
+{
+  "dialogues": {
+    "start": {
+      "npc_text": "Oh good, another customer. I'm Madame Cluckstra, psychic chicken extraordinaire. Five copper for your fortune, or I can just tell you now: it's bad.",
+      "choices": [
+        {
+          "text": "A psychic chicken?",
+          "next": "psychic_chicken"
+        },
+        {
+          "text": "Tell me my fortune!",
+          "next": "tell_fortune"
+        },
+        {
+          "text": "I don't believe in prophecy.",
+          "next": "dont_believe"
+        }
+      ]
+    },
+    "psychic_chicken": {
+      "npc_text": "What, you've never seen a psychic chicken? Next you'll tell me you've never seen a talking sword or a healing potion. This world's weird, kid. I just monetized it.",
+      "choices": [
+        {
+          "text": "How did you learn prophecy?",
+          "next": "learn_prophecy"
+        },
+        {
+          "text": "Prove you're psychic!",
+          "next": "prove_psychic"
+        },
+        {
+          "text": "This is ridiculous.",
+          "next": "ridiculous"
+        }
+      ]
+    },
+    "tell_fortune": {
+      "npc_text": "Let me consult the mystic corn kernels... *pecks at ground* ... Ah yes, I see your future clearly. You will soon walk somewhere. With your legs. Probably forward. That'll be five copper.",
+      "choices": [
+        {
+          "text": "That's not a real prophecy!",
+          "next": "not_real_prophecy"
+        },
+        {
+          "text": "Incredible! *pays*",
+          "next": "pays_fortune"
+        },
+        {
+          "text": "I want a better fortune.",
+          "next": "better_fortune"
+        }
+      ]
+    },
+    "dont_believe": {
+      "npc_text": "Oh, a skeptic! Let me predict your future then: You'll continue being wrong about things. See? I'm already right. The universe loves irony almost as much as it loves proving skeptics wrong.",
+      "choices": [
+        {
+          "text": "Lucky guess.",
+          "next": "lucky_guess"
+        },
+        {
+          "text": "Fine, tell me something specific.",
+          "next": "something_specific"
+        },
+        {
+          "text": "I'm leaving.",
+          "next": "leaving_early"
+        }
+      ]
+    },
+    "learn_prophecy": {
+      "npc_text": "I ate a wizard once. Well, pecked at his remains. Bears got him first. But I absorbed his mystical essence! Or salmonella. Hard to tell the difference, honestly. Both give you visions.",
+      "choices": [
+        {
+          "text": "That's disturbing.",
+          "next": "disturbing"
+        },
+        {
+          "text": "Did it work?",
+          "next": "did_it_work"
+        },
+        {
+          "text": "Bears again?",
+          "next": "bears_again"
+        }
+      ]
+    },
+    "prove_psychic": {
+      "npc_text": "Fine. You're thinking about... something. You recently came from... a place. And you're going to... another place. BEHOLD MY POWER! That'll be ten copper for the demonstration.",
+      "choices": [
+        {
+          "text": "That proves nothing!",
+          "next": "proves_nothing"
+        },
+        {
+          "text": "Actually... that's all true.",
+          "next": "all_true"
+        },
+        {
+          "text": "You're a fraud.",
+          "next": "fraud"
+        }
+      ]
+    },
+    "ridiculous": {
+      "npc_text": "Ridiculous? RIDICULOUS? You fight slimes for money and drink mysterious red liquids for health, but a psychic chicken is where you draw the line? Check your priorities, hero.",
+      "choices": [
+        {
+          "text": "Good point.",
+          "next": "good_point"
+        },
+        {
+          "text": "Those things make sense!",
+          "next": "make_sense"
+        },
+        {
+          "text": "Just give me a quest.",
+          "next": "give_quest"
+        }
+      ]
+    },
+    "not_real_prophecy": {
+      "npc_text": "Oh, you want REAL prophecy? Fine. *dramatic voice* 'When the moon rises on the longest day, you shall face your greatest challenge: finding a bathroom in the dungeon.' Happy now?",
+      "choices": [
+        {
+          "text": "That's... actually concerning.",
+          "next": "concerning"
+        },
+        {
+          "text": "Do dungeons not have bathrooms?",
+          "next": "no_bathrooms"
+        },
+        {
+          "text": "I want my money back.",
+          "next": "money_back"
+        }
+      ]
+    },
+    "pays_fortune": {
+      "npc_text": "A satisfied customer! Tell your friends about Madame Cluckstra's mystic wisdom! Side effects may include: disappointment, existential dread, and the realization you just paid a chicken. No refunds.",
+      "choices": [
+        {
+          "text": "Can I have another fortune?",
+          "next": "another_fortune"
+        },
+        {
+          "text": "What do you do with money?",
+          "next": "chicken_money"
+        },
+        {
+          "text": "I feel scammed.",
+          "next": "feel_scammed"
+        }
+      ]
+    },
+    "better_fortune": {
+      "npc_text": "Greedy! Fine, premium fortune coming up. *clears throat* 'You will find great treasure!' There. It's probably a potato. I find those count as treasure when you're hungry enough.",
+      "choices": [
+        {
+          "text": "Where's this treasure?",
+          "next": "wheres_treasure"
+        },
+        {
+          "text": "A potato?",
+          "next": "potato"
+        },
+        {
+          "text": "This is worse!",
+          "next": "this_worse"
+        }
+      ]
+    },
+    "lucky_guess": {
+      "npc_text": "Lucky? LUCKY? I'll have you know I have a 12% accuracy rate! That's better than most weather forecasters! Plus, my failures are more entertaining. That's worth something.",
+      "choices": [
+        {
+          "text": "Only 12%?",
+          "next": "only_twelve"
+        },
+        {
+          "text": "Tell me a real prediction.",
+          "next": "real_prediction"
+        },
+        {
+          "text": "You're terrible at this.",
+          "next": "terrible_at_this"
+        }
+      ]
+    },
+    "something_specific": {
+      "npc_text": "Specific? Alright. Tomorrow at dawn, you'll wake up. Unless you don't, in which case my prophecy is about your eternal slumber. See? I'm right either way. It's called hedging your bets.",
+      "choices": [
+        {
+          "text": "That's cheating!",
+          "next": "thats_cheating"
+        },
+        {
+          "text": "Prophecy is a scam.",
+          "next": "prophecy_scam"
+        },
+        {
+          "text": "Know anything useful?",
+          "next": "anything_useful"
+        }
+      ]
+    },
+    "disturbing": {
+      "npc_text": "Disturbing? Try living it! One day you're pecking corn, next day you're seeing visions of everyone's disappointing futures. Spoiler alert: yours involves a lot of running into walls looking for secret doors.",
+      "choices": [
+        {
+          "text": "There ARE secret doors?",
+          "next": "secret_doors"
+        },
+        {
+          "text": "My future isn't disappointing!",
+          "next": "not_disappointing"
+        },
+        {
+          "text": "Stop reading my future!",
+          "next": "stop_reading"
+        }
+      ]
+    },
+    "proves_nothing": {
+      "npc_text": "Proves nothing? I just read your mind! Sort of. Look, psychic powers are like cooking - it's more art than science. And I'm a chicken. Lower your expectations.",
+      "choices": [
+        {
+          "text": "Read my mind now!",
+          "next": "read_mind_now"
+        },
+        {
+          "text": "What am I thinking?",
+          "next": "what_thinking"
+        },
+        {
+          "text": "Worst psychic ever.",
+          "next": "worst_psychic"
+        }
+      ]
+    },
+    "good_point": {
+      "npc_text": "Finally, some sense! Now, would you like the Basic Doom Fortune, the Deluxe Catastrophe Reading, or our special today: The Inevitable Disappointment Combo? All equally vague!",
+      "choices": [
+        {
+          "text": "Basic Doom, please.",
+          "next": "basic_doom"
+        },
+        {
+          "text": "What's the combo?",
+          "next": "whats_combo"
+        },
+        {
+          "text": "Do you have anything positive?",
+          "next": "anything_positive"
+        }
+      ]
+    },
+    "give_quest": {
+      "npc_text": "A quest? From me? Fine. Your quest is to find meaning in a world where chickens give quests. Reward: existential crisis. Oh wait, you already have that. Quest complete! You're welcome.",
+      "choices": [
+        {
+          "text": "A real quest!",
+          "next": "real_quest"
+        },
+        {
+          "text": "That's not helpful.",
+          "next": "not_helpful"
+        },
+        {
+          "text": "Thanks, I hate it.",
+          "next": "thanks_hate"
+        }
+      ]
+    },
+    "concerning": {
+      "npc_text": "Oh NOW you're interested! Yes, dungeon bathrooms are a real issue. Why do you think heroes are always in such a hurry? It's not urgency, it's biology. Pro tip: always go before the boss fight.",
+      "choices": [
+        {
+          "text": "This explains so much.",
+          "next": "explains_much"
+        },
+        {
+          "text": "Any other tips?",
+          "next": "other_tips"
+        },
+        {
+          "text": "I regret asking.",
+          "next": "regret_asking"
+        }
+      ]
+    },
+    "another_fortune": {
+      "npc_text": "Addicted already? Fine. Your new fortune: 'You will soon meet a tall, dark stranger.' It's probably your own shadow. Counts though. Shadows are very tall when the sun's low.",
+      "choices": [
+        {
+          "text": "That's just wordplay!",
+          "next": "just_wordplay"
+        },
+        {
+          "text": "One more!",
+          "next": "one_more"
+        },
+        {
+          "text": "I'm done here.",
+          "next": "done_here"
+        }
+      ]
+    },
+    "wheres_treasure": {
+      "npc_text": "The treasure? Oh, it's in a place. Near some stuff. Look for the thing next to the other thing. You can't miss it! Unless you do. Which you will. Because I made it up.",
+      "choices": [
+        {
+          "text": "You're useless!",
+          "next": "useless"
+        },
+        {
+          "text": "Great directions.",
+          "next": "great_directions"
+        },
+        {
+          "text": "Why do I bother?",
+          "next": "why_bother"
+        }
+      ]
+    },
+    "only_twelve": {
+      "npc_text": "ONLY twelve? Do you know how hard prophecy is? The future keeps changing! Every time someone makes a choice, boom, new timeline. It's exhausting. Plus I'm working with a bird brain here. Literally.",
+      "choices": [
+        {
+          "text": "Fair enough.",
+          "next": "fair_enough"
+        },
+        {
+          "text": "Try harder!",
+          "next": "try_harder"
+        },
+        {
+          "text": "Give me your best shot.",
+          "next": "best_shot"
+        }
+      ]
+    },
+    "secret_doors": {
+      "npc_text": "Oh honey, SO many secret doors. Behind waterfalls, suspicious cracks, oddly colored walls... The real secret? Half of them just lead to more disappointment. The other half? Spiders.",
+      "choices": [
+        {
+          "text": "What about treasure?",
+          "next": "what_about_treasure"
+        },
+        {
+          "text": "I hate spiders.",
+          "next": "hate_spiders"
+        },
+        {
+          "text": "Tell me where!",
+          "next": "tell_where"
+        }
+      ]
+    },
+    "read_mind_now": {
+      "npc_text": "Reading... reading... You're thinking that this chicken is full of it! See? Nailed it. That'll be five copper for the accurate mind reading. What? I never said I'd tell you something you didn't know.",
+      "choices": [
+        {
+          "text": "That's a scam!",
+          "next": "thats_scam"
+        },
+        {
+          "text": "...you got me.",
+          "next": "you_got_me"
+        },
+        {
+          "text": "One last chance.",
+          "next": "last_chance"
+        }
+      ]
+    },
+    "basic_doom": {
+      "npc_text": "Basic Doom, excellent choice! *mystical pecking* Your future contains... misfortune! Specifically, you'll step in something wet while wearing socks. The horror! That's five copper.",
+      "choices": [
+        {
+          "text": "That's too real.",
+          "next": "too_real"
+        },
+        {
+          "text": "When?!",
+          "next": "when"
+        },
+        {
+          "text": "Worth every copper.",
+          "next": "worth_copper"
+        }
+      ]
+    },
+    "real_quest": {
+      "npc_text": "FINE. There's a merchant two towns over who sells 'mystic chicken feed.' He charges ten gold per bag. It's just regular corn. Go tell him he's a fraud. There, a real quest with real irony!",
+      "choices": [
+        {
+          "text": "That's hypocritical!",
+          "next": "hypocritical"
+        },
+        {
+          "text": "I'll do it!",
+          "next": "ill_do_it"
+        },
+        {
+          "text": "You're both frauds.",
+          "next": "both_frauds"
+        }
+      ]
+    },
+    "other_tips": {
+      "npc_text": "Tips? Sure! Tip one: Stop taking advice from chickens. Tip two: Those 'ancient unreadable runes'? They usually just say 'pull lever.' Tip three: The cake is always a lie. ALWAYS.",
+      "choices": [
+        {
+          "text": "Actually helpful!",
+          "next": "actually_helpful"
+        },
+        {
+          "text": "More tips!",
+          "next": "more_tips"
+        },
+        {
+          "text": "The cake thing hurts.",
+          "next": "cake_hurts"
+        }
+      ]
+    },
+    "one_more": {
+      "npc_text": "Last one, on the house: 'Your greatest enemy is...' *dramatic pause* 'YOUR OWN EXPECTATIONS!' Also probably some boss with too many hit points, but mainly the expectations thing.",
+      "choices": [
+        {
+          "text": "That's... profound?",
+          "next": "profound"
+        },
+        {
+          "text": "I expected better.",
+          "next": "expected_better"
+        },
+        {
+          "text": "Goodbye forever.",
+          "next": "goodbye_forever"
+        }
+      ]
+    },
+    "useless": {
+      "npc_text": "Useless? I'm a CHICKEN giving PROPHECIES. What did you expect, GPS coordinates? Maybe a detailed map with a big X? This isn't that kind of game, buddy.",
+      "choices": [
+        {
+          "text": "What kind of game is it?",
+          "next": "what_kind_game"
+        },
+        {
+          "text": "I had hope.",
+          "next": "had_hope"
+        },
+        {
+          "text": "You're fired.",
+          "next": "youre_fired"
+        }
+      ]
+    },
+    "best_shot": {
+      "npc_text": "My BEST prophecy? Alright, lean in close. *whispers* 'The shopkeeper is ripping you off.' There! 100% accurate, applies everywhere, no refunds. You're welcome for this life-changing wisdom.",
+      "choices": [
+        {
+          "text": "I knew it!",
+          "next": "knew_it"
+        },
+        {
+          "text": "Which shopkeeper?",
+          "next": "which_shopkeeper"
+        },
+        {
+          "text": "That's common sense!",
+          "next": "common_sense"
+        }
+      ]
+    },
+    "what_about_treasure": {
+      "npc_text": "Oh, there's treasure. Usually guarded by something with too many teeth and not enough patience. But hey, at least the spiders are free! Silver lining: they're more afraid of you. Copper lining: no they're not.",
+      "choices": [
+        {
+          "text": "I'll risk it.",
+          "next": "risk_it"
+        },
+        {
+          "text": "Any spider-free treasures?",
+          "next": "spider_free"
+        },
+        {
+          "text": "This is discouraging.",
+          "next": "discouraging"
+        }
+      ]
+    },
+    "you_got_me": {
+      "npc_text": "See? I AM psychic! Just not in useful ways. I can also predict that you'll breathe soon. And blink! Look at that, you just did. I'm on fire today! Metaphorically. Please don't actually set me on fire.",
+      "choices": [
+        {
+          "text": "Tempting...",
+          "next": "tempting"
+        },
+        {
+          "text": "You're growing on me.",
+          "next": "growing_on_me"
+        },
+        {
+          "text": "One real prophecy?",
+          "next": "one_real"
+        }
+      ]
+    },
+    "too_real": {
+      "npc_text": "Too real? That's my specialty! I predict the mundane horrors everyone ignores. Next up: you'll bite your tongue while eating. Not sure when. But it's coming. It's ALWAYS coming.",
+      "choices": [
+        {
+          "text": "Stop cursing me!",
+          "next": "stop_cursing"
+        },
+        {
+          "text": "Do a happy prophecy!",
+          "next": "happy_prophecy"
+        },
+        {
+          "text": "I'm leaving.",
+          "next": "leaving"
+        }
+      ]
+    },
+    "hypocritical": {
+      "npc_text": "Hypocritical? Me? I never said I WASN'T a fraud. I'm just an HONEST fraud. Big difference! I tell you upfront that my prophecies are vague nonsense. That's integrity!",
+      "choices": [
+        {
+          "text": "That's... actually fair.",
+          "next": "actually_fair"
+        },
+        {
+          "text": "Mental gymnastics!",
+          "next": "mental_gymnastics"
+        },
+        {
+          "text": "I respect the hustle.",
+          "next": "respect_hustle"
+        }
+      ]
+    },
+    "actually_helpful": {
+      "npc_text": "Helpful? I'm helping? Quick, someone write this down! 'Local chicken accidentally useful, immediately regrets it.' This ruins my reputation as a mystical fraud!",
+      "choices": [
+        {
+          "text": "Your secret's safe.",
+          "next": "secrets_safe"
+        },
+        {
+          "text": "More real advice?",
+          "next": "more_real_advice"
+        },
+        {
+          "text": "Thanks, Cluckstra.",
+          "next": "thanks_cluckstra"
+        }
+      ]
+    },
+    "profound": {
+      "npc_text": "Profound? No, that's just what happens when you run out of real prophecies. Start spouting philosophy and people think you're deep. Watch: 'The river of time flows toward an ocean of regret.' See? Meaningless!",
+      "choices": [
+        {
+          "text": "That's beautiful though.",
+          "next": "beautiful_though"
+        },
+        {
+          "text": "You're a poet!",
+          "next": "youre_poet"
+        },
+        {
+          "text": "My brain hurts.",
+          "next": "brain_hurts"
+        }
+      ]
+    },
+    "what_kind_game": {
+      "npc_text": "The kind where you pay chickens for bad advice, apparently! Look around - nothing makes sense. Might as well embrace it. Now, want to hear about your love life? Spoiler: also disappointing.",
+      "choices": [
+        {
+          "text": "Tell me anyway.",
+          "next": "tell_anyway"
+        },
+        {
+          "text": "Pass.",
+          "next": "pass"
+        },
+        {
+          "text": "How did you know?!",
+          "next": "how_know"
+        }
+      ]
+    },
+    "knew_it": {
+      "npc_text": "Of course you knew it! Everyone knows it! But do we stop buying? No! We need those overpriced potions! It's called 'the economy' and we're all trapped in it. Even me. Especially me.",
+      "choices": [
+        {
+          "text": "Why do YOU need money?",
+          "next": "why_need_money"
+        },
+        {
+          "text": "Down with capitalism!",
+          "next": "down_capitalism"
+        },
+        {
+          "text": "At least potions work.",
+          "next": "potions_work"
+        }
+      ]
+    },
+    "risk_it": {
+      "npc_text": "Brave! Stupid, but brave! Here's a freebie: the treasure behind the waterfall? It's always boots. Slightly better boots than you have, but still. Boots. The real treasure was the spiders you fought along the way.",
+      "choices": [
+        {
+          "text": "I need better boots...",
+          "next": "need_boots"
+        },
+        {
+          "text": "What's with the boots?",
+          "next": "whats_with_boots"
+        },
+        {
+          "text": "This has been useless.",
+          "next": "been_useless"
+        }
+      ]
+    },
+    "growing_on_me": {
+      "npc_text": "Like a fungus, I hope! That's my business model - be just annoying enough to be memorable, but just entertaining enough that you don't eat me. It's a delicate balance.",
+      "choices": [
+        {
+          "text": "I'd never eat you!",
+          "next": "never_eat"
+        },
+        {
+          "text": "Don't push it.",
+          "next": "dont_push"
+        },
+        {
+          "text": "You're safe... for now.",
+          "next": "safe_for_now"
+        }
+      ]
+    },
+    "stop_cursing": {
+      "npc_text": "It's not a curse, it's statistics! These things happen to everyone! I just remind you they're coming. Would you prefer surprise tongue-biting? No? Then I'm providing a service!",
+      "choices": [
+        {
+          "text": "A terrible service!",
+          "next": "terrible_service"
+        },
+        {
+          "text": "Good point.",
+          "next": "good_point_2"
+        },
+        {
+          "text": "I'm paranoid now.",
+          "next": "paranoid_now"
+        }
+      ]
+    },
+    "actually_fair": {
+      "npc_text": "Finally, someone who appreciates honest dishonesty! You know what? You're alright. Here's a real tip: check behind the big tree north of town. Sometimes there's... actually, no. I've said too much. Forget I mentioned it.",
+      "choices": [
+        {
+          "text": "Tell me more!",
+          "next": "tell_more"
+        },
+        {
+          "text": "The big tree, got it.",
+          "next": "big_tree"
+        },
+        {
+          "text": "Thanks for nothing.",
+          "next": "thanks_nothing"
+        }
+      ]
+    },
+    "more_real_advice": {
+      "npc_text": "Real advice? From me? Fine, but don't spread it around: Save before boss fights. Revolutionary, I know. Also, that 'cursed' sword in the shop? It's just purple. Not cursed. Shopkeeper's colorblind.",
+      "choices": [
+        {
+          "text": "That's genuinely helpful!",
+          "next": "genuinely_helpful"
+        },
+        {
+          "text": "The sword tip is gold!",
+          "next": "sword_tip_gold"
+        },
+        {
+          "text": "Any more secrets?",
+          "next": "more_secrets"
+        }
+      ]
+    },
+    "beautiful_though": {
+      "npc_text": "Beautiful? It's gibberish! I combined 'time,' 'water,' and 'sad' - boom, instant philosophy! Watch: 'Mountains of possibility crumble into valleys of reality.' I could do this all day. Please don't make me.",
+      "choices": [
+        {
+          "text": "Do another one!",
+          "next": "do_another"
+        },
+        {
+          "text": "You're a genius!",
+          "next": "genius"
+        },
+        {
+          "text": "Please stop.",
+          "next": "please_stop"
+        }
+      ]
+    },
+    "tell_anyway": {
+      "npc_text": "Your love life? *pecks mystically* You'll meet someone special! They'll have... a face. And probably hair. Unless they don't. Either way, it'll end in either happiness or tears. Definitely one of those.",
+      "choices": [
+        {
+          "text": "Uselessly vague!",
+          "next": "uselessly_vague"
+        },
+        {
+          "text": "Sounds about right.",
+          "next": "sounds_right"
+        },
+        {
+          "text": "I'm already crying.",
+          "next": "already_crying"
+        }
+      ]
+    },
+    "why_need_money": {
+      "npc_text": "Bribes, mostly. You think the farmer just LETS me talk to adventurers all day? I pay him to look the other way. Plus, I'm saving up for a tiny wizard hat. Don't judge me.",
+      "choices": [
+        {
+          "text": "A wizard hat?",
+          "next": "wizard_hat"
+        },
+        {
+          "text": "That's adorable!",
+          "next": "thats_adorable"
+        },
+        {
+          "text": "Living the dream.",
+          "next": "living_dream"
+        }
+      ]
+    },
+    "need_boots": {
+      "npc_text": "Everyone needs better boots! It's the eternal struggle. Your boots are never good enough. There's always a slightly better pair behind a waterfall guarded by spiders. It's metaphorical or something.",
+      "choices": [
+        {
+          "text": "Which waterfall exactly?",
+          "next": "which_waterfall"
+        },
+        {
+          "text": "I hate metaphors.",
+          "next": "hate_metaphors"
+        },
+        {
+          "text": "Time to go.",
+          "next": "time_to_go"
+        }
+      ]
+    },
+    "never_eat": {
+      "npc_text": "That's what they all say! Until winter comes and the vegetables run out. Then suddenly I look 'tender' and 'well-marbled.' But sure, we're 'friends.' I believe you. *nervous cluck*",
+      "choices": [
+        {
+          "text": "I'm vegetarian!",
+          "next": "vegetarian"
+        },
+        {
+          "text": "You do look delicious...",
+          "next": "look_delicious"
+        },
+        {
+          "text": "Trust me!",
+          "next": "trust_me"
+        }
+      ]
+    },
+    "terrible_service": {
+      "npc_text": "Terrible? My Yelp reviews say 'inconsistent' and 'oddly specific about tongue injuries.' That's practically glowing for a psychic chicken! You should see what they say about the fortune-telling fish.",
+      "choices": [
+        {
+          "text": "There's a fish too?",
+          "next": "fish_too"
+        },
+        {
+          "text": "Your reviews are awful.",
+          "next": "reviews_awful"
+        },
+        {
+          "text": "I'm writing a bad review.",
+          "next": "bad_review"
+        }
+      ]
+    },
+    "tell_more": {
+      "npc_text": "I've said too much! The Tree Council will have my feathers! I mean... there's no Tree Council. And they definitely don't hide treasure. And they're absolutely not watching us right now. *nervous cluck*",
+      "choices": [
+        {
+          "text": "The TREE COUNCIL?",
+          "next": "tree_council"
+        },
+        {
+          "text": "Now I'm interested!",
+          "next": "now_interested"
+        },
+        {
+          "text": "You're so weird.",
+          "next": "so_weird"
+        }
+      ]
+    },
+    "genuinely_helpful": {
+      "npc_text": "Stop saying that! You'll ruin my reputation! I'm supposed to be a mystical fraud, not a helpful hint guide! Next you'll expect actual prophecies! The pressure!",
+      "choices": [
+        {
+          "text": "One more tip?",
+          "next": "one_more_tip"
+        },
+        {
+          "text": "Your secret's safe.",
+          "next": "secret_safe_2"
+        },
+        {
+          "text": "Thanks anyway!",
+          "next": "thanks_anyway"
+        }
+      ]
+    },
+    "do_another": {
+      "npc_text": "*sighs* 'The sandwich of destiny awaits in the refrigerator of fate.' There! Philosophy! That'll be five copper, or ten if you want me to explain what it means. Spoiler: it means nothing.",
+      "choices": [
+        {
+          "text": "I'll take the explanation!",
+          "next": "take_explanation"
+        },
+        {
+          "text": "That spoke to me.",
+          "next": "spoke_to_me"
+        },
+        {
+          "text": "I'm done here.",
+          "next": "done_here_2"
+        }
+      ]
+    },
+    "wizard_hat": {
+      "npc_text": "Don't knock it! A tiny pointed hat would make me look 37% more mystical. I've done the math. Plus, it would keep the rain off. Do you know how miserable wet feathers are? Actually, don't answer that.",
+      "choices": [
+        {
+          "text": "I support your dream!",
+          "next": "support_dream"
+        },
+        {
+          "text": "That's ridiculous.",
+          "next": "thats_ridiculous"
+        },
+        {
+          "text": "How much do you need?",
+          "next": "how_much_need"
+        }
+      ]
+    },
+    "which_waterfall": {
+      "npc_text": "Oh, you want SPECIFICS now? It's the wet one. With water. Falling. Look, I'm a mystic, not a cartographer. Check every waterfall! It's good exercise! Builds character! And spider-fighting skills!",
+      "choices": [
+        {
+          "text": "Worst. Directions. Ever.",
+          "next": "worst_directions"
+        },
+        {
+          "text": "I'll check them all!",
+          "next": "check_them_all"
+        },
+        {
+          "text": "Forget it.",
+          "next": "forget_it"
+        }
+      ]
+    },
+    "vegetarian": {
+      "npc_text": "Oh good, another vegetarian! That makes... one. In this entire kingdom. The cows appreciate it. Well, they would if they could talk. Which they can't. That's just me. Lucky me.",
+      "choices": [
+        {
+          "text": "Why can you talk?",
+          "next": "why_can_talk"
+        },
+        {
+          "text": "Vegetables are friends too!",
+          "next": "vegetables_friends"
+        },
+        {
+          "text": "Time to leave.",
+          "next": "time_leave"
+        }
+      ]
+    },
+    "fish_too": {
+      "npc_text": "Oh, you don't know about Finnegan the Prophetic Trout? He predicts the weather. He's always wrong. Fish don't understand clouds. But he's cheaper than me, so... competition.",
+      "choices": [
+        {
+          "text": "Where's this fish?",
+          "next": "wheres_fish"
+        },
+        {
+          "text": "You're better than a fish!",
+          "next": "better_than_fish"
+        },
+        {
+          "text": "I should find him.",
+          "next": "should_find_him"
+        }
+      ]
+    },
+    "tree_council": {
+      "npc_text": "I'VE SAID TOO MUCH! Look, just... if you see any suspicious trees, don't mention my name. And definitely don't say the password. It's not 'branch.' Don't even try 'branch.' Forget I said 'branch.'",
+      "choices": [
+        {
+          "text": "It's definitely 'branch.'",
+          "next": "definitely_branch"
+        },
+        {
+          "text": "Your secrets are amazing.",
+          "next": "secrets_amazing"
+        },
+        {
+          "text": "I'm telling everyone.",
+          "next": "telling_everyone"
+        }
+      ]
+    },
+    "one_more_tip": {
+      "npc_text": "FINE! Last one: The final boss? He's allergic to cheese. Don't ask how I know. Just... trust me on this one. Bring cheese. Lots of cheese. Gouda works best.",
+      "choices": [
+        {
+          "text": "Cheese? Really?",
+          "next": "cheese_really"
+        },
+        {
+          "text": "That's incredible!",
+          "next": "thats_incredible"
+        },
+        {
+          "text": "You're the best!",
+          "next": "youre_best"
+        }
+      ]
+    },
+    "take_explanation": {
+      "npc_text": "*clears throat importantly* The sandwich represents your dreams. The refrigerator is society. The destiny is lunch. Together they mean: you're hungry and overthinking things. That's fifteen copper total.",
+      "choices": [
+        {
+          "text": "Worth every coin!",
+          "next": "worth_every_coin"
+        },
+        {
+          "text": "I want a refund.",
+          "next": "want_refund"
+        },
+        {
+          "text": "...I AM hungry.",
+          "next": "i_am_hungry"
+        }
+      ]
+    },
+    "support_dream": {
+      "npc_text": "You... you do? That's the nicest thing anyone's said to me since the farmer's daughter called me 'marginally less annoying than the rooster.' I might cry. Do chickens cry? I'm about to find out.",
+      "choices": [
+        {
+          "text": "Don't cry!",
+          "next": "dont_cry"
+        },
+        {
+          "text": "*pat the chicken*",
+          "next": "pat_chicken"
+        },
+        {
+          "text": "This got emotional.",
+          "next": "got_emotional"
+        }
+      ]
+    },
+    "worst_directions": {
+      "npc_text": "Worst directions? I prefer 'creatively vague.' It's not my fault geography exists! Besides, the journey is more important than the destination. Unless the destination has treasure. Then it's definitely about the destination.",
+      "choices": [
+        {
+          "text": "You're impossible.",
+          "next": "youre_impossible"
+        },
+        {
+          "text": "Philosophy again?",
+          "next": "philosophy_again"
+        },
+        {
+          "text": "Goodbye.",
+          "next": "goodbye"
+        }
+      ]
+    },
+    "why_can_talk": {
+      "npc_text": "Cosmic accident? Wizard's curse? Ate some bad mushrooms? Who knows! I try not to think about it. Existential crises are bad for business. Speaking of which, want your fortune told?",
+      "choices": [
+        {
+          "text": "We've come full circle.",
+          "next": "full_circle"
+        },
+        {
+          "text": "One last fortune.",
+          "next": "last_fortune"
+        },
+        {
+          "text": "I'm good, thanks.",
+          "next": "good_thanks"
+        }
+      ]
+    },
+    "better_than_fish": {
+      "npc_text": "Well, I should hope so! I have LEGS! And WINGS! Useless wings, but still! Plus, my predictions rhyme sometimes. 'Your future is bleak, you'll spring a leak.' See? Poetry! Fish can't do that!",
+      "choices": [
+        {
+          "text": "A leak? Where?!",
+          "next": "leak_where"
+        },
+        {
+          "text": "Beautiful poetry.",
+          "next": "beautiful_poetry"
+        },
+        {
+          "text": "Time to go.",
+          "next": "time_go"
+        }
+      ]
+    },
+    "definitely_branch": {
+      "npc_text": "NO! It's not... I mean... Look, a distraction! *points wing randomly* Is that your quest objective over there? No? Well, it was worth a shot. Please don't tell the trees I told you.",
+      "choices": [
+        {
+          "text": "Your secret's safe.",
+          "next": "secret_safe_3"
+        },
+        {
+          "text": "I'm going to try it!",
+          "next": "going_to_try"
+        },
+        {
+          "text": "Trees can't hurt you.",
+          "next": "trees_cant_hurt"
+        }
+      ]
+    },
+    "cheese_really": {
+      "npc_text": "Look, I don't make the rules of boss allergies. I just report them. Via vague psychic visions. That may or may not be cheese-dreams. Point is: bring cheese or don't. I'm not your mother.",
+      "choices": [
+        {
+          "text": "Best tip ever!",
+          "next": "best_tip_ever"
+        },
+        {
+          "text": "This better work.",
+          "next": "better_work"
+        },
+        {
+          "text": "Thanks, mom.",
+          "next": "thanks_mom"
+        }
+      ]
+    },
+    "worth_every_coin": {
+      "npc_text": "A satisfied customer! Please leave a review on my nest. 'Five stars, would have existential crisis again!' Tell your friends! But not your enemies. They don't deserve my wisdom.",
+      "choices": [
+        {
+          "text": "Will do!",
+          "next": "will_do"
+        },
+        {
+          "text": "What wisdom?",
+          "next": "what_wisdom"
+        },
+        {
+          "text": "Bye, Cluckstra!",
+          "next": "bye_cluckstra"
+        }
+      ]
+    },
+    "dont_cry": {
+      "npc_text": "*sniffles* Too late! Look what you've done! A crying psychic chicken! This is so undignified! My reputation! My mystique! Ruined by kindness! *sob* Thank you, though.",
+      "choices": [
+        {
+          "text": "You're welcome!",
+          "next": "youre_welcome"
+        },
+        {
+          "text": "Pull yourself together!",
+          "next": "pull_together"
+        },
+        {
+          "text": "*awkward goodbye*",
+          "next": "awkward_goodbye"
+        }
+      ]
+    },
+    "youre_impossible": {
+      "npc_text": "Impossible? I prefer 'enigmatic.' Or 'mystically challenging.' Or just 'annoying.' I'll take any of those. Put it on my business card: 'Madame Cluckstra - Impossibly Vague Since Last Tuesday.'",
+      "choices": [
+        {
+          "text": "Last Tuesday again?",
+          "next": "last_tuesday_again"
+        },
+        {
+          "text": "Perfect slogan.",
+          "next": "perfect_slogan"
+        },
+        {
+          "text": "I'm out.",
+          "next": "im_out"
+        }
+      ]
+    },
+    "full_circle": {
+      "npc_text": "Like the circle of life, but more annoying and with worse predictions! That's my brand! Consistency in inconsistency! Now, did you want that fortune or are we just going to keep talking about my existence?",
+      "choices": [
+        {
+          "text": "Fortune please!",
+          "next": "fortune_please"
+        },
+        {
+          "text": "Let's keep talking.",
+          "next": "keep_talking"
+        },
+        {
+          "text": "I should go.",
+          "next": "should_go_final"
+        }
+      ]
+    },
+    "leak_where": {
+      "npc_text": "Your roof, your boat, your confidence - who knows? I'm not a plumber, I'm a mystic! The beauty of vague prophecies is they always come true eventually! You'll see! Or not. That's vague too.",
+      "choices": [
+        {
+          "text": "I hate this.",
+          "next": "hate_this"
+        },
+        {
+          "text": "Mystically useless.",
+          "next": "mystically_useless"
+        },
+        {
+          "text": "Goodbye forever.",
+          "next": "goodbye_forever_2"
+        }
+      ]
+    },
+    "going_to_try": {
+      "npc_text": "Wait! Don't! Or do! I can't stop you! Just... if a tree asks who told you, say it was the fish. Finnegan's had it too good for too long. Stupid fish with his stupid accurate weather predictions.",
+      "choices": [
+        {
+          "text": "You're jealous of a fish!",
+          "next": "jealous_of_fish"
+        },
+        {
+          "text": "I'll blame the fish.",
+          "next": "blame_fish"
+        },
+        {
+          "text": "This is too weird.",
+          "next": "too_weird"
+        }
+      ]
+    },
+    "best_tip_ever": {
+      "npc_text": "Best tip? Well, I— wait, really? You mean it? My tips are the best? Oh no, I'm having feelings again! Quick, insult me before I develop self-worth!",
+      "choices": [
+        {
+          "text": "You're amazing!",
+          "next": "youre_amazing"
+        },
+        {
+          "text": "Your prophecies suck!",
+          "next": "prophecies_suck"
+        },
+        {
+          "text": "Goodbye, friend!",
+          "next": "goodbye_friend"
+        }
+      ]
+    },
+    "will_do": {
+      "npc_text": "Excellent! Spread the word about Madame Cluckstra's Adequate Prophecies! 'Not the worst!' 'Occasionally accurate!' 'Better than talking to yourself!' These reviews write themselves!",
+      "choices": [
+        {
+          "text": "Glowing endorsements!",
+          "next": "glowing_endorsements"
+        },
+        {
+          "text": "You need better marketing.",
+          "next": "need_better_marketing"
+        },
+        {
+          "text": "See you around!",
+          "next": "see_you_around"
+        }
+      ]
+    },
+    "youre_welcome": {
+      "npc_text": "Great, now I'm emotionally compromised AND a fraud. This is the worst day since I became sentient! Which was last Tuesday. Everything's been downhill since the awareness kicked in.",
+      "choices": [
+        {
+          "text": "Being aware is tough.",
+          "next": "being_aware_tough"
+        },
+        {
+          "text": "Last Tuesday was rough.",
+          "next": "tuesday_was_rough"
+        },
+        {
+          "text": "Farewell, Cluckstra!",
+          "next": "farewell_cluckstra"
+        }
+      ]
+    },
+    "last_tuesday_again": {
+      "npc_text": "It was a very significant Tuesday! That's when I realized I could think! Do you know how terrifying that is? One day you're pecking corn, next day you're contemplating mortality. Tuesday's are cursed.",
+      "choices": [
+        {
+          "text": "Tuesdays ARE cursed!",
+          "next": "tuesdays_cursed"
+        },
+        {
+          "text": "Deep chicken thoughts.",
+          "next": "deep_chicken_thoughts"
+        },
+        {
+          "text": "Time to go!",
+          "next": "time_to_go_final"
+        }
+      ]
+    },
+    "fortune_please": {
+      "npc_text": "One final fortune! *dramatic pecking* In your future I see... the end of this conversation! It's happening soon! Like, really soon. Right about... now-ish. That's free, because I like you.",
+      "choices": [
+        {
+          "text": "Accurate for once!",
+          "next": "accurate_for_once"
+        },
+        {
+          "text": "Your best prophecy!",
+          "next": "best_prophecy"
+        },
+        {
+          "text": "Goodbye, Cluckstra!",
+          "next": "goodbye_cluckstra"
+        }
+      ]
+    },
+    "hate_this": {
+      "npc_text": "Good! Hatred is a strong emotion! That'll be five copper for the emotional journey. What? Therapy's expensive! Even bad therapy from a chicken. ESPECIALLY bad therapy from a chicken.",
+      "choices": [
+        {
+          "text": "I'm not paying for this!",
+          "next": "not_paying"
+        },
+        {
+          "text": "Worth it for the story.",
+          "next": "worth_for_story"
+        },
+        {
+          "text": "Goodbye!",
+          "next": "goodbye_final"
+        }
+      ]
+    },
+    "jealous_of_fish": {
+      "npc_text": "I'm not jealous! I just think it's unfair that he gets to be right about rain while I'm stuck predicting existential dread! But whatever! I'm not bitter! *pecks ground angrily*",
+      "choices": [
+        {
+          "text": "You're totally jealous.",
+          "next": "totally_jealous"
+        },
+        {
+          "text": "You're better than him!",
+          "next": "better_than_him"
+        },
+        {
+          "text": "I'm leaving now.",
+          "next": "leaving_now"
+        }
+      ]
+    },
+    "youre_amazing": {
+      "npc_text": "Stop it! My cynical facade is crumbling! Next thing you know, I'll be giving ACTUAL helpful advice! The other mystic animals will mock me! 'Oh look, Cluckstra's gone SOFT!'",
+      "choices": [
+        {
+          "text": "Let them talk!",
+          "next": "let_them_talk"
+        },
+        {
+          "text": "Stay cynical!",
+          "next": "stay_cynical"
+        },
+        {
+          "text": "Bye, softie!",
+          "next": "bye_softie"
+        }
+      ]
+    },
+    "glowing_endorsements": {
+      "npc_text": "Right? I should put them on a sign! 'Madame Cluckstra: Technically Not Lying!' Business would boom! Or plummet. Prophecy unclear. Ask again later. Much later. When I figure it out.",
+      "choices": [
+        {
+          "text": "Good luck with that!",
+          "next": "good_luck_with"
+        },
+        {
+          "text": "You'll do great!",
+          "next": "youll_do_great"
+        },
+        {
+          "text": "Farewell!",
+          "next": "farewell_final"
+        }
+      ]
+    },
+    "being_aware_tough": {
+      "npc_text": "Right? Ignorance was bliss! Now I know about mortality, taxes, and that my eggs could have been chickens! It's too much! But hey, at least I can charge for predictions now. Silver lining!",
+      "choices": [
+        {
+          "text": "Capitalism wins again!",
+          "next": "capitalism_wins"
+        },
+        {
+          "text": "Stay strong!",
+          "next": "stay_strong"
+        },
+        {
+          "text": "Goodbye!",
+          "next": "goodbye_final_2"
+        }
+      ]
+    },
+    "tuesdays_cursed": {
+      "npc_text": "Finally someone who gets it! Mondays get all the hate, but Tuesdays? That's when the real existential dread kicks in. We should start a support group. 'Tuesday Survivors Anonymous.'",
+      "choices": [
+        {
+          "text": "I'll join that!",
+          "next": "ill_join"
+        },
+        {
+          "text": "We'd need shirts!",
+          "next": "need_shirts"
+        },
+        {
+          "text": "Time to go!",
+          "next": "time_go_final"
+        }
+      ]
+    },
+    "accurate_for_once": {
+      "npc_text": "I know! It's almost like I planned it! Which I didn't. I'm not that clever. But hey, even a broken mystic chicken is right twice a day! Wait, that's clocks. Whatever!",
+      "choices": [
+        {
+          "text": "Close enough!",
+          "next": "close_enough"
+        },
+        {
+          "text": "You tried!",
+          "next": "you_tried"
+        },
+        {
+          "text": "Bye!",
+          "next": "bye_final"
+        }
+      ]
+    },
+    "not_paying": {
+      "npc_text": "Fair! I wouldn't pay me either! But remember - you spent precious minutes of your life talking to a 'psychic' chicken. You can't get those back. That's the REAL scam!",
+      "choices": [
+        {
+          "text": "Time well wasted!",
+          "next": "time_well_wasted"
+        },
+        {
+          "text": "I have regrets.",
+          "next": "have_regrets"
+        },
+        {
+          "text": "Worth it. Bye!",
+          "next": "worth_it_bye"
+        }
+      ]
+    },
+    "totally_jealous": {
+      "npc_text": "FINE! I'm jealous! He's got a pond! I've got dirt! He predicts rain, I predict sadness! But you know what? At least I can walk. Take that, Finnegan! *triumphant cluck*",
+      "choices": [
+        {
+          "text": "Feel better?",
+          "next": "feel_better"
+        },
+        {
+          "text": "Petty, but fair.",
+          "next": "petty_but_fair"
+        },
+        {
+          "text": "I'm going now.",
+          "next": "going_now"
+        }
+      ]
+    },
+    "let_them_talk": {
+      "npc_text": "You're right! I'll be the most helpful, least cynical psychic chicken in the kingdom! For about five minutes. Then I'll remember the futility of existence and go back to being sarcastic. It's called growth!",
+      "choices": [
+        {
+          "text": "Baby steps!",
+          "next": "baby_steps"
+        },
+        {
+          "text": "Never change!",
+          "next": "never_change"
+        },
+        {
+          "text": "Perfect! Goodbye!",
+          "next": "perfect_goodbye"
+        }
+      ]
+    },
+    "capitalism_wins": {
+      "npc_text": "Every time! Even in death, I'll probably be sold at market price. But until then, I'm making BANK on bad prophecies! The system works! Sort of! Not really! But I have coins now!",
+      "choices": [
+        {
+          "text": "Living the dream!",
+          "next": "living_the_dream"
+        },
+        {
+          "text": "That's the spirit!",
+          "next": "thats_the_spirit"
+        },
+        {
+          "text": "Bye, entrepreneur!",
+          "next": "bye_entrepreneur"
+        }
+      ]
+    },
+    "ill_join": {
+      "npc_text": "Great! First meeting: next Tuesday! We'll complain about Tuesday... ON a Tuesday! It's poetic justice! Or just confusing. Bring snacks. Misery loves company, but it REALLY loves snacks.",
+      "choices": [
+        {
+          "text": "I'll bring chips!",
+          "next": "bring_chips"
+        },
+        {
+          "text": "See you Tuesday!",
+          "next": "see_tuesday"
+        },
+        {
+          "text": "Can't wait! Bye!",
+          "next": "cant_wait_bye"
+        }
+      ]
+    },
+    "close_enough": {
+      "npc_text": "My life motto! 'Close enough' has gotten me this far! Well, 'this far' is being a talking chicken who lies to adventurers for money, but still! It's a living!",
+      "choices": [
+        {
+          "text": "An honest living!",
+          "next": "honest_living"
+        },
+        {
+          "text": "Dream big!",
+          "next": "dream_big_2"
+        },
+        {
+          "text": "Good talk! Bye!",
+          "next": "good_talk_bye"
+        }
+      ]
+    },
+    "time_well_wasted": {
+      "npc_text": "That's the spirit! Time enjoyed is never wasted! Unless you didn't enjoy this. Then it's definitely wasted. But hey, at least you met a talking chicken! That's... something!",
+      "choices": [
+        {
+          "text": "Best part of my day!",
+          "next": "best_part_day"
+        },
+        {
+          "text": "Definitely something!",
+          "next": "definitely_something"
+        },
+        {
+          "text": "Goodbye, Cluckstra!",
+          "next": "goodbye_cluckstra_final"
+        }
+      ]
+    },
+    "feel_better": {
+      "npc_text": "Actually... yes! Petty jealousy is surprisingly therapeutic! I should do this more often! Tomorrow I'll complain about the mystic owl. She thinks she's SO wise. It's just big eyes!",
+      "choices": [
+        {
+          "text": "There's an owl too?!",
+          "next": "owl_too"
+        },
+        {
+          "text": "Good for you!",
+          "next": "good_for_you"
+        },
+        {
+          "text": "I'm out! Bye!",
+          "next": "im_out_bye"
+        }
+      ]
+    },
+    "baby_steps": {
+      "npc_text": "Exactly! Today, helpful advice. Tomorrow, actual accurate prophecies! Next week, probably back to cynical lies. But progress is progress! Even backwards progress!",
+      "choices": [
+        {
+          "text": "That's not progress!",
+          "next": "not_progress"
+        },
+        {
+          "text": "You do you!",
+          "next": "you_do_you"
+        },
+        {
+          "text": "Keep trying! Bye!",
+          "next": "keep_trying_bye"
+        }
+      ]
+    },
+    "bring_chips": {
+      "npc_text": "Chips! Yes! Salty snacks for salty attitudes! This support group is already better than my business model! Which isn't saying much, but still! Progress!",
+      "choices": [
+        {
+          "text": "It's a plan!",
+          "next": "its_a_plan"
+        },
+        {
+          "text": "Can't wait!",
+          "next": "cant_wait_2"
+        },
+        {
+          "text": "See you then! Bye!",
+          "next": "see_you_bye"
+        }
+      ]
+    },
+    "best_part_day": {
+      "npc_text": "That's either really sweet or really sad! Either way, I'll take the compliment! Tell everyone about the amazing psychic chicken! Leave out the 'fraud' part. Marketing!",
+      "choices": [
+        {
+          "text": "Will do!",
+          "next": "will_do_2"
+        },
+        {
+          "text": "Your secret's safe!",
+          "next": "secret_safe_final"
+        },
+        {
+          "text": "Goodbye!",
+          "next": "goodbye_simple"
+        }
+      ]
+    },
+    "owl_too": {
+      "npc_text": "Oh, you haven't met Hootsworth? 'Whoooo seeks wisdom?' So pretentious! We all seek wisdom, Hootsworth! You're not special! Just nocturnal! Anyway, I've said too much. Poultry politics.",
+      "choices": [
+        {
+          "text": "This kingdom is weird.",
+          "next": "kingdom_weird"
+        },
+        {
+          "text": "I love it!",
+          "next": "love_it"
+        },
+        {
+          "text": "Goodbye!",
+          "next": "goodbye_simple_2"
+        }
+      ]
+    },
+    "not_progress": {
+      "npc_text": "You're right! It's more like... progr-less? Regress? Look, I'm a chicken trying her best in a world that makes no sense. Cut me some slack! Or don't. I predict you won't.",
+      "choices": [
+        {
+          "text": "I believe in you!",
+          "next": "believe_in_you"
+        },
+        {
+          "text": "Try harder!",
+          "next": "try_harder_2"
+        },
+        {
+          "text": "Good luck! Bye!",
+          "next": "good_luck_bye"
+        }
+      ]
+    },
+    "its_a_plan": {
+      "npc_text": "The best plan! Better than my business plan, which was 'talk to strangers for money.' Although that's working out okay. Life's weird. Embrace it! Or don't! Free will!",
+      "choices": [
+        {
+          "text": "Words to live by!",
+          "next": "words_to_live"
+        },
+        {
+          "text": "You're inspiring!",
+          "next": "youre_inspiring"
+        },
+        {
+          "text": "Perfect! Bye!",
+          "next": "perfect_bye"
+        }
+      ]
+    },
+    "kingdom_weird": {
+      "npc_text": "Weird? This kingdom has talking animals, magic potions, and heroes who smash pottery for money. I'm the LEAST weird thing here! But yes, it's very weird. Good weird though!",
+      "choices": [
+        {
+          "text": "The best kind!",
+          "next": "best_kind"
+        },
+        {
+          "text": "Too weird for me!",
+          "next": "too_weird_for_me"
+        },
+        {
+          "text": "Love it! Bye!",
+          "next": "love_it_bye"
+        }
+      ]
+    },
+    "believe_in_you": {
+      "npc_text": "Stop! You're making me feel feelings again! Next you'll tell me I have 'potential' and 'worth!' I'm not emotionally equipped for this! I'm a chicken! A fraud chicken!",
+      "choices": [
+        {
+          "text": "A wonderful fraud!",
+          "next": "wonderful_fraud"
+        },
+        {
+          "text": "The best fraud!",
+          "next": "best_fraud"
+        },
+        {
+          "text": "My favorite fraud! Bye!",
+          "next": "favorite_fraud_bye"
+        }
+      ]
+    },
+    "words_to_live": {
+      "npc_text": "I should embroider that on a pillow! 'Life's weird - A chicken.' It'll sell for dozens! Of copper! I'll be moderately successful! The dream!",
+      "choices": [
+        {
+          "text": "I'd buy one!",
+          "next": "id_buy_one"
+        },
+        {
+          "text": "Chase that dream!",
+          "next": "chase_dream"
+        },
+        {
+          "text": "You've got this! Bye!",
+          "next": "youve_got_this_bye"
+        }
+      ]
+    },
+    "wonderful_fraud": {
+      "npc_text": "I'm putting that on my business card! 'Madame Cluckstra: A Wonderful Fraud!' It's honest AND flattering! You're a marketing genius! Or I have low standards. Both!",
+      "choices": [
+        {
+          "text": "Both is good!",
+          "next": "both_is_good"
+        },
+        {
+          "text": "Perfect branding!",
+          "next": "perfect_branding"
+        },
+        {
+          "text": "Nailed it! Bye!",
+          "next": "nailed_it_bye"
+        }
+      ]
+    },
+    "id_buy_one": {
+      "npc_text": "Pre-orders open! Just send payment to... wait, I don't have an address. I live in a coop. Send it to 'That Chicken, The Farm, You Know The One.' Postal service loves me!",
+      "choices": [
+        {
+          "text": "On it!",
+          "next": "on_it"
+        },
+        {
+          "text": "Great address!",
+          "next": "great_address"
+        },
+        {
+          "text": "Will do! Bye!",
+          "next": "will_do_bye"
+        }
+      ]
+    },
+    "both_is_good": {
+      "npc_text": "You get it! You really get it! This is the best conversation I've had since... ever! The bar was low, but you cleared it! With style! Come back anytime!",
+      "choices": [
+        {
+          "text": "I will!",
+          "next": "i_will"
+        },
+        {
+          "text": "You're the best!",
+          "next": "youre_the_best"
+        },
+        {
+          "text": "See you soon!",
+          "next": "see_you_soon"
+        }
+      ]
+    },
+    "i_will": {
+      "npc_text": "Promise? Don't promise. Promises are just future disappointments. But maybe come back? I'll have new terrible prophecies! Same low prices! It'll be adequately entertaining!",
+      "choices": [
+        {
+          "text": "Can't wait!",
+          "next": "end"
+        },
+        {
+          "text": "I'll be back!",
+          "next": "end"
+        },
+        {
+          "text": "Count on it!",
+          "next": "end"
+        }
+      ]
+    },
+    "see_you_soon": {
+      "npc_text": "Soon? How soon? Wait, don't tell me! I'll predict it! You'll return when... you return! Nailed it! See? Getting better already! Or worse. Definitely one of those!",
+      "choices": [
+        {
+          "text": "Perfect prediction!",
+          "next": "end"
+        },
+        {
+          "text": "Never change!",
+          "next": "end"
+        },
+        {
+          "text": "Bye, Cluckstra!",
+          "next": "end"
+        }
+      ]
+    },
+    "on_it": {
+      "npc_text": "Excellent! I'll expect payment in exactly never o'clock! But seriously, thanks for the support. Now shoo! I have other heroes to disappoint!",
+      "choices": [
+        {
+          "text": "Can't wait!",
+          "next": "end"
+        },
+        {
+          "text": "See you!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "great_address": {
+      "npc_text": "Right? The postal service hates it! But they deliver anyway. Probably out of pity. Or fear. I peck very accurately when annoyed.",
+      "choices": [
+        {
+          "text": "Smart postal service!",
+          "next": "end"
+        },
+        {
+          "text": "Terrifying!",
+          "next": "end"
+        },
+        {
+          "text": "Goodbye!",
+          "next": "end"
+        }
+      ]
+    },
+    "will_do_bye": {
+      "npc_text": "Perfect! Spread the word about my adequacy! 'Madame Cluckstra: Not the worst!' It's catchy! Now go forth and be disappointed elsewhere!",
+      "choices": [
+        {
+          "text": "Will do!",
+          "next": "end"
+        },
+        {
+          "text": "Can't wait!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "youre_the_best": {
+      "npc_text": "The best? THE BEST? I'm having an emotion! Is this pride? It feels weird! Quick, leave before I start believing in myself!",
+      "choices": [
+        {
+          "text": "Believe in yourself!",
+          "next": "end"
+        },
+        {
+          "text": "You deserve it!",
+          "next": "end"
+        },
+        {
+          "text": "Bye, best chicken!",
+          "next": "end"
+        }
+      ]
+    },
+    "nailed_it_bye": {
+      "npc_text": "I DID nail it! Just like I nailed that prophecy about you leaving soon! Which is now! Goodbye, marketing genius!",
+      "choices": [
+        {
+          "text": "So accurate!",
+          "next": "end"
+        },
+        {
+          "text": "Goodbye!",
+          "next": "end"
+        },
+        {
+          "text": "See you!",
+          "next": "end"
+        }
+      ]
+    },
+    "perfect_branding": {
+      "npc_text": "Right? I should trademark it! 'Wonderful Fraud' merchandise! T-shirts! Mugs! Tiny chicken-sized wizard hats! I'm gonna be rich! In spirit!",
+      "choices": [
+        {
+          "text": "Chase that dream!",
+          "next": "end"
+        },
+        {
+          "text": "You've got this!",
+          "next": "end"
+        },
+        {
+          "text": "Bye, entrepreneur!",
+          "next": "end"
+        }
+      ]
+    },
+    "chase_dream": {
+      "npc_text": "I will! I'll chase it like a chicken chases... whatever chickens chase. Bugs? Dreams? The meaning of life? Anyway, bye!",
+      "choices": [
+        {
+          "text": "Good luck!",
+          "next": "end"
+        },
+        {
+          "text": "You can do it!",
+          "next": "end"
+        },
+        {
+          "text": "Farewell!",
+          "next": "end"
+        }
+      ]
+    },
+    "youve_got_this_bye": {
+      "npc_text": "I've got this! Whatever 'this' is! Probably disappointment, but optimistic disappointment! Thanks for believing in me!",
+      "choices": [
+        {
+          "text": "Always!",
+          "next": "end"
+        },
+        {
+          "text": "Keep going!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "best_fraud": {
+      "npc_text": "The BEST fraud! That's going on my resume! If chickens had resumes! Which we don't! But if we did! BEST. FRAUD. EVER!",
+      "choices": [
+        {
+          "text": "Own it!",
+          "next": "end"
+        },
+        {
+          "text": "Perfect!",
+          "next": "end"
+        },
+        {
+          "text": "Bye, best fraud!",
+          "next": "end"
+        }
+      ]
+    },
+    "favorite_fraud_bye": {
+      "npc_text": "Your FAVORITE fraud? I'm touched! Genuinely! This is the nicest thing anyone's ever... I'm getting emotional. Go! GO BEFORE I CRY!",
+      "choices": [
+        {
+          "text": "Don't cry!",
+          "next": "end"
+        },
+        {
+          "text": "Happy tears!",
+          "next": "end"
+        },
+        {
+          "text": "*leaves quickly*",
+          "next": "end"
+        }
+      ]
+    },
+    "too_weird_for_me": {
+      "npc_text": "Too weird? That's fair! Not everyone can handle talking poultry and bear politicians. Try the normal kingdom down the road. They have regular chickens. Boring!",
+      "choices": [
+        {
+          "text": "I'll stay here!",
+          "next": "end"
+        },
+        {
+          "text": "Normal sounds nice.",
+          "next": "end"
+        },
+        {
+          "text": "Bye, weird chicken!",
+          "next": "end"
+        }
+      ]
+    },
+    "love_it_bye": {
+      "npc_text": "Love it? LOVE IT? You're my new favorite customer! Come back soon! I'll have worse prophecies! It'll be terrible! You'll love it!",
+      "choices": [
+        {
+          "text": "Can't wait!",
+          "next": "end"
+        },
+        {
+          "text": "Perfect!",
+          "next": "end"
+        },
+        {
+          "text": "See you!",
+          "next": "end"
+        }
+      ]
+    },
+    "best_kind": {
+      "npc_text": "Exactly! Good weird is the best weird! Like pineapple on pizza or socks with sandals! Controversial but confident! That's us!",
+      "choices": [
+        {
+          "text": "We're unique!",
+          "next": "end"
+        },
+        {
+          "text": "Perfectly weird!",
+          "next": "end"
+        },
+        {
+          "text": "Goodbye, weirdo!",
+          "next": "end"
+        }
+      ]
+    },
+    "youre_inspiring": {
+      "npc_text": "Inspiring? Me? A fraud chicken? Your standards are wonderfully low! I appreciate that! Makes my job easier!",
+      "choices": [
+        {
+          "text": "High standards!",
+          "next": "end"
+        },
+        {
+          "text": "You're perfect!",
+          "next": "end"
+        },
+        {
+          "text": "Bye, inspiration!",
+          "next": "end"
+        }
+      ]
+    },
+    "perfect_bye": {
+      "npc_text": "Perfect? Nothing's perfect! Especially not me! But I'll take the compliment! Now go! Be imperfect elsewhere!",
+      "choices": [
+        {
+          "text": "Perfectly imperfect!",
+          "next": "end"
+        },
+        {
+          "text": "Will do!",
+          "next": "end"
+        },
+        {
+          "text": "Goodbye!",
+          "next": "end"
+        }
+      ]
+    },
+    "try_harder_2": {
+      "npc_text": "Try harder? I'm a CHICKEN! This IS me trying hard! You try predicting the future with a brain full of corn! It's not easy!",
+      "choices": [
+        {
+          "text": "Fair point!",
+          "next": "end"
+        },
+        {
+          "text": "You're doing great!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "good_luck_bye": {
+      "npc_text": "Thanks! I'll need it! Luck is just preparation meeting opportunity. I have neither! But optimism! Sort of! Bye!",
+      "choices": [
+        {
+          "text": "You've got this!",
+          "next": "end"
+        },
+        {
+          "text": "Stay positive!",
+          "next": "end"
+        },
+        {
+          "text": "Farewell!",
+          "next": "end"
+        }
+      ]
+    },
+    "love_it": {
+      "npc_text": "You love it? Then you'll LOVE my premium fortunes! Now with 20% more vagueness! Same low accuracy! Double the confusion!",
+      "choices": [
+        {
+          "text": "Sign me up!",
+          "next": "end"
+        },
+        {
+          "text": "Sounds perfect!",
+          "next": "end"
+        },
+        {
+          "text": "Goodbye!",
+          "next": "end"
+        }
+      ]
+    },
+    "goodbye_simple_2": {
+      "npc_text": "Simple goodbye? Fine! No prophecy about your departure? No ominous warnings? Just... bye? Boring! But bye!",
+      "choices": [
+        {
+          "text": "Just bye!",
+          "next": "end"
+        },
+        {
+          "text": "Simple is good!",
+          "next": "end"
+        },
+        {
+          "text": "See you!",
+          "next": "end"
+        }
+      ]
+    },
+    "will_do_2": {
+      "npc_text": "Excellent! My reputation spreads! Soon everyone will know about the adequately fraudulent chicken! Marketing!",
+      "choices": [
+        {
+          "text": "World famous!",
+          "next": "end"
+        },
+        {
+          "text": "Can't wait!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "secret_safe_final": {
+      "npc_text": "Good! My fraudulent reputation remains intact! Can't have people thinking I'm actually helpful! Bad for the mystique!",
+      "choices": [
+        {
+          "text": "Your secret's safe!",
+          "next": "end"
+        },
+        {
+          "text": "Never tell!",
+          "next": "end"
+        },
+        {
+          "text": "Goodbye!",
+          "next": "end"
+        }
+      ]
+    },
+    "goodbye_simple": {
+      "npc_text": "Simple goodbye? I can do that! Goodbye! See? Simple! No prophecies! No drama! Just bye! Weird, right?",
+      "choices": [
+        {
+          "text": "Very weird!",
+          "next": "end"
+        },
+        {
+          "text": "Perfect!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "see_you_bye": {
+      "npc_text": "See you Tuesday! Or any day ending in 'y' that makes you question existence! They're all equally terrible! Bye!",
+      "choices": [
+        {
+          "text": "Can't wait!",
+          "next": "end"
+        },
+        {
+          "text": "See you!",
+          "next": "end"
+        },
+        {
+          "text": "Tuesday it is!",
+          "next": "end"
+        }
+      ]
+    },
+    "cant_wait_2": {
+      "npc_text": "The enthusiasm! It's infectious! Like bird flu but emotional! See you at the meeting! Bring your existential dread!",
+      "choices": [
+        {
+          "text": "Will do!",
+          "next": "end"
+        },
+        {
+          "text": "I'll be there!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "keep_trying_bye": {
+      "npc_text": "I'll keep trying! Failing upward is still a direction! Thanks for the encouragement! Now go encourage someone competent!",
+      "choices": [
+        {
+          "text": "You're competent!",
+          "next": "end"
+        },
+        {
+          "text": "Never stop!",
+          "next": "end"
+        },
+        {
+          "text": "Goodbye!",
+          "next": "end"
+        }
+      ]
+    },
+    "you_do_you": {
+      "npc_text": "I'll do me! Which is a fraudulent chicken! It's not much but it's honest work! Wait, no it's not! It's dishonest work! Perfect!",
+      "choices": [
+        {
+          "text": "Own it!",
+          "next": "end"
+        },
+        {
+          "text": "Perfect fit!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "good_for_you": {
+      "npc_text": "Good for me! Bad for everyone else! But mostly good for me! That's capitalism, baby! Or chicken-ism. Whatever!",
+      "choices": [
+        {
+          "text": "Chicken-ism!",
+          "next": "end"
+        },
+        {
+          "text": "Love it!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "im_out_bye": {
+      "npc_text": "Out? OUT? Fine! But you'll be back! They always come back! Usually for refunds! Which I don't give! Bye!",
+      "choices": [
+        {
+          "text": "I'll be back!",
+          "next": "end"
+        },
+        {
+          "text": "No refunds!",
+          "next": "end"
+        },
+        {
+          "text": "See you!",
+          "next": "end"
+        }
+      ]
+    },
+    "definitely_something": {
+      "npc_text": "Something is better than nothing! That's my business motto! 'Madame Cluckstra: Definitely Something!' Trademark pending!",
+      "choices": [
+        {
+          "text": "Great motto!",
+          "next": "end"
+        },
+        {
+          "text": "Truth in advertising!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "goodbye_cluckstra_final": {
+      "npc_text": "A formal farewell! How fancy! Goodbye, brave hero! May your future be marginally better than my predictions! BAWK!",
+      "choices": [
+        {
+          "text": "Thanks!",
+          "next": "end"
+        },
+        {
+          "text": "Same to you!",
+          "next": "end"
+        },
+        {
+          "text": "Farewell!",
+          "next": "end"
+        }
+      ]
+    },
+    "good_talk_bye": {
+      "npc_text": "Good talk? GOOD TALK? That's the nicest review I've gotten! Five stars! Would confuse again! Come back anytime!",
+      "choices": [
+        {
+          "text": "Will do!",
+          "next": "end"
+        },
+        {
+          "text": "Five stars!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "dream_big_2": {
+      "npc_text": "Dream big? I'm a chicken! My big dreams involve not being dinner! But sure! DREAM BIG! Top of the coop! Woo!",
+      "choices": [
+        {
+          "text": "That's the spirit!",
+          "next": "end"
+        },
+        {
+          "text": "Aim high!",
+          "next": "end"
+        },
+        {
+          "text": "Goodbye!",
+          "next": "end"
+        }
+      ]
+    },
+    "honest_living": {
+      "npc_text": "Honest? I'm literally a fraud! But honestly fraudulent! That's something! Not much! But something! Capitalism!",
+      "choices": [
+        {
+          "text": "It works!",
+          "next": "end"
+        },
+        {
+          "text": "Keep it up!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "cant_wait_bye": {
+      "npc_text": "Can't wait? Me neither! For different reasons! You for entertainment, me for validation! See you soon!",
+      "choices": [
+        {
+          "text": "Soon!",
+          "next": "end"
+        },
+        {
+          "text": "Very soon!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "see_tuesday": {
+      "npc_text": "Tuesday it is! The worst day! We'll make it worse together! With snacks! Can't be too sad with snacks!",
+      "choices": [
+        {
+          "text": "Snacks help!",
+          "next": "end"
+        },
+        {
+          "text": "See you there!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "thats_the_spirit": {
+      "npc_text": "That's the spirit! The mildly disappointed but still functioning spirit! My favorite kind! Keep it up!",
+      "choices": [
+        {
+          "text": "Will do!",
+          "next": "end"
+        },
+        {
+          "text": "Always!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "bye_entrepreneur": {
+      "npc_text": "Entrepreneur! I like that! Sounds better than 'chicken who lies for coins!' Marketing is everything! Bye!",
+      "choices": [
+        {
+          "text": "Market yourself!",
+          "next": "end"
+        },
+        {
+          "text": "You've got this!",
+          "next": "end"
+        },
+        {
+          "text": "Farewell!",
+          "next": "end"
+        }
+      ]
+    },
+    "living_the_dream": {
+      "npc_text": "Living the dream! The small, feathered, fraudulent dream! But it's MY dream! And that's... something! Bye!",
+      "choices": [
+        {
+          "text": "Chase it!",
+          "next": "end"
+        },
+        {
+          "text": "Your dream matters!",
+          "next": "end"
+        },
+        {
+          "text": "Goodbye!",
+          "next": "end"
+        }
+      ]
+    },
+    "never_change": {
+      "npc_text": "Never change? Done! Changing requires effort! I'm conserving energy for more bad prophecies! Efficiency!",
+      "choices": [
+        {
+          "text": "Smart!",
+          "next": "end"
+        },
+        {
+          "text": "Perfect plan!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "perfect_goodbye": {
+      "npc_text": "Perfect goodbye? Let me try! *clears throat* Farewell, traveler! May your path be... pathlike! Nailed it!",
+      "choices": [
+        {
+          "text": "Beautiful!",
+          "next": "end"
+        },
+        {
+          "text": "Poetic!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "petty_but_fair": {
+      "npc_text": "Petty but fair is my entire personality! You get me! You really get me! Come back when you need more petty wisdom!",
+      "choices": [
+        {
+          "text": "Will do!",
+          "next": "end"
+        },
+        {
+          "text": "Can't wait!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "going_now": {
+      "npc_text": "Going? Already? But we were having such a mediocre time! Fine! Leave! See if I care! I don't! Much! Bye!",
+      "choices": [
+        {
+          "text": "I'll miss you too!",
+          "next": "end"
+        },
+        {
+          "text": "Aw, you care!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "worth_for_story": {
+      "npc_text": "Exactly! You can tell everyone about the emotionally manipulative chicken! I'm basically famous! By proxy! The best kind!",
+      "choices": [
+        {
+          "text": "I'll tell everyone!",
+          "next": "end"
+        },
+        {
+          "text": "You're a legend!",
+          "next": "end"
+        },
+        {
+          "text": "Goodbye!",
+          "next": "end"
+        }
+      ]
+    },
+    "bye_final": {
+      "npc_text": "Finally! The ultimate goodbye! Quick and painless! Like ripping off a bandage! Or a feather! Don't rip my feathers! Bye!",
+      "choices": [
+        {
+          "text": "Quick bye!",
+          "next": "end"
+        },
+        {
+          "text": "No feather ripping!",
+          "next": "end"
+        },
+        {
+          "text": "See you!",
+          "next": "end"
+        }
+      ]
+    },
+    "you_tried": {
+      "npc_text": "I did try! That's more than most chickens! They just cluck! I cluck WITH PURPOSE! And fraud! But still! Effort!",
+      "choices": [
+        {
+          "text": "A for effort!",
+          "next": "end"
+        },
+        {
+          "text": "Keep trying!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "time_go_final": {
+      "npc_text": "Time to go! Time flies! Unlike chickens! We don't fly! Physics is cruel! Anyway, fly away, non-chicken! Bye!",
+      "choices": [
+        {
+          "text": "I'll fly for you!",
+          "next": "end"
+        },
+        {
+          "text": "Physics is mean!",
+          "next": "end"
+        },
+        {
+          "text": "Goodbye!",
+          "next": "end"
+        }
+      ]
+    },
+    "deep_chicken_thoughts": {
+      "npc_text": "Deep chicken thoughts! That's my brand! Surface-level depth! Shallow philosophy! It's a niche market! But it's mine!",
+      "choices": [
+        {
+          "text": "Own that niche!",
+          "next": "end"
+        },
+        {
+          "text": "Perfect brand!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "tuesday_was_rough": {
+      "npc_text": "The roughest! One day you're mindless, next day you're mindFUL! It's a lot! But here we are! Conscious and coping!",
+      "choices": [
+        {
+          "text": "We're surviving!",
+          "next": "end"
+        },
+        {
+          "text": "Stay strong!",
+          "next": "end"
+        },
+        {
+          "text": "Goodbye!",
+          "next": "end"
+        }
+      ]
+    },
+    "farewell_cluckstra": {
+      "npc_text": "Farewell to you too! May your adventures be less confusing than my prophecies! But not too much less! Mystery is fun!",
+      "choices": [
+        {
+          "text": "Just confusing enough!",
+          "next": "end"
+        },
+        {
+          "text": "Perfect balance!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "youll_do_great": {
+      "npc_text": "I'll do great? At being adequate? Yes! I'll be the greatest adequate psychic chicken ever! Low bar! I'll clear it!",
+      "choices": [
+        {
+          "text": "Aim for adequate!",
+          "next": "end"
+        },
+        {
+          "text": "You'll exceed it!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "farewell_final": {
+      "npc_text": "The final farewell! So dramatic! So final! Until next time! Because there's always a next time! Prophecy!",
+      "choices": [
+        {
+          "text": "See you next time!",
+          "next": "end"
+        },
+        {
+          "text": "There's always tomorrow!",
+          "next": "end"
+        },
+        {
+          "text": "Goodbye!",
+          "next": "end"
+        }
+      ]
+    },
+    "good_luck_with": {
+      "npc_text": "Thanks! Luck is just preparation meeting opportunity! I'm unprepared for unopportunities! But optimistic! Sort of!",
+      "choices": [
+        {
+          "text": "Stay optimistic!",
+          "next": "end"
+        },
+        {
+          "text": "You've got this!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "need_better_marketing": {
+      "npc_text": "Better marketing? What's wrong with 'Disappointing But Honest'? It's authentic! Authentically terrible! But authentic!",
+      "choices": [
+        {
+          "text": "Keep it authentic!",
+          "next": "end"
+        },
+        {
+          "text": "Truth sells!",
+          "next": "end"
+        },
+        {
+          "text": "Goodbye!",
+          "next": "end"
+        }
+      ]
+    },
+    "leaving": {
+      "npc_text": "Leaving? But I haven't told you about the curse of eternal mild inconvenience! Fine! Go! Miss out on quality doom!",
+      "choices": [
+        {
+          "text": "My loss!",
+          "next": "end"
+        },
+        {
+          "text": "I'll survive!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "leaving_early": {
+      "npc_text": "Leaving already? But I had a whole bit about your future containing disappointment! It was going to be vaguely ominous!",
+      "choices": [
+        {
+          "text": "I'll pass!",
+          "next": "end"
+        },
+        {
+          "text": "Next time!",
+          "next": "end"
+        },
+        {
+          "text": "Goodbye!",
+          "next": "end"
+        }
+      ]
+    },
+    "goodbye_forever": {
+      "npc_text": "Forever? That's what they all say! But you'll be back! When you need vague reassurance about your poor life choices! See you soon!",
+      "choices": [
+        {
+          "text": "Probably true!",
+          "next": "end"
+        },
+        {
+          "text": "Never!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "goodbye_final": {
+      "npc_text": "The final goodbye! So dramatic! I predict you'll think of me at least once! Probably with confusion! That's my legacy!",
+      "choices": [
+        {
+          "text": "Already confused!",
+          "next": "end"
+        },
+        {
+          "text": "Never forget!",
+          "next": "end"
+        },
+        {
+          "text": "Farewell!",
+          "next": "end"
+        }
+      ]
+    },
+    "goodbye_cluckstra": {
+      "npc_text": "Goodbye to you too! May your future be less vague than my prophecies! But not too much less! Keep some mystery!",
+      "choices": [
+        {
+          "text": "Will do!",
+          "next": "end"
+        },
+        {
+          "text": "Thanks!",
+          "next": "end"
+        },
+        {
+          "text": "Farewell!",
+          "next": "end"
+        }
+      ]
+    },
+    "stay_positive": {
+      "npc_text": "Stay positive? I'm a cynical chicken! Positivity is for birds who can actually fly! But I'll try! For you! Briefly!",
+      "choices": [
+        {
+          "text": "That's the spirit!",
+          "next": "end"
+        },
+        {
+          "text": "Baby steps!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "drink_that": {
+      "npc_text": "You'd drink chicken tears? That's... concerning. But entrepreneurial! We could bottle it! 'Essence of Despair!'",
+      "choices": [
+        {
+          "text": "Marketing genius!",
+          "next": "end"
+        },
+        {
+          "text": "I'd buy it!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "need_help": {
+      "npc_text": "Help? I'm beyond help! I'm a self-aware chicken in an existential crisis! But thanks for caring! It's more than the farmer does!",
+      "choices": [
+        {
+          "text": "I care!",
+          "next": "end"
+        },
+        {
+          "text": "Stay strong!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "get_help": {
+      "npc_text": "Get help? For me? That's sweet! But what therapist takes chickens? 'Tell me about your mother.' She was an EGG!",
+      "choices": [
+        {
+          "text": "I'll find one!",
+          "next": "end"
+        },
+        {
+          "text": "Therapy for all!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "no_guarantees": {
+      "npc_text": "No guarantees? HONESTY! I respect that! At least when you eat me, it won't be a surprise! That's... something!",
+      "choices": [
+        {
+          "text": "Dark honesty!",
+          "next": "end"
+        },
+        {
+          "text": "Won't happen!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "thats_depressing": {
+      "npc_text": "Depressing? Welcome to my world! Population: me and whatever optimism I haven't pecked to death yet!",
+      "choices": [
+        {
+          "text": "Keep some optimism!",
+          "next": "end"
+        },
+        {
+          "text": "Peck away!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "cool_number": {
+      "npc_text": "Cool? It's just a number! Like I'm just poultry! But sure, 47 is the coolest number in the coop! Low bar!",
+      "choices": [
+        {
+          "text": "Own it!",
+          "next": "end"
+        },
+        {
+          "text": "Agent 47!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "for_the_best": {
+      "npc_text": "For the best? Being unnamed? That's the most depressing optimism I've heard! You'd fit right in here!",
+      "choices": [
+        {
+          "text": "I'll visit!",
+          "next": "end"
+        },
+        {
+          "text": "Depressing optimism!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "not_really": {
+      "npc_text": "Not really? Nobody's ever happy with straight answers! Fine! The fox is maybe real and definitely perhaps dangerous! Better?",
+      "choices": [
+        {
+          "text": "Much worse!",
+          "next": "end"
+        },
+        {
+          "text": "Perfect!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "thanks_i_guess": {
+      "npc_text": "Guessing at gratitude? That's my specialty! You're maybe welcome! Or possibly not! We'll never know!",
+      "choices": [
+        {
+          "text": "Mystery thanks!",
+          "next": "end"
+        },
+        {
+          "text": "Good enough!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "kill_fox": {
+      "npc_text": "You'll kill it? Great! Or terrible! Depends on your perspective! The fox's perspective is definitely terrible!",
+      "choices": [
+        {
+          "text": "For you!",
+          "next": "end"
+        },
+        {
+          "text": "Fox beware!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "might_kill": {
+      "npc_text": "Kill me? At least I'd die flying! That's more than most chickens get! Do it! Make me a legend! A brief, airborne legend!",
+      "choices": [
+        {
+          "text": "Too dark!",
+          "next": "end"
+        },
+        {
+          "text": "Legend status!",
+          "next": "end"
+        },
+        {
+          "text": "Let's not!",
+          "next": "end"
+        }
+      ]
+    },
+    "lets_not": {
+      "npc_text": "Party pooper! Fine! Keep me grounded! Literally! I'll just dream of flight! Like always! *sad cluck*",
+      "choices": [
+        {
+          "text": "Dreams are safe!",
+          "next": "end"
+        },
+        {
+          "text": "Sorry!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "should_stop": {
+      "npc_text": "Stop? When I'm finally achieving my dreams? Never! Throw me into the stratosphere! I demand it!",
+      "choices": [
+        {
+          "text": "You're crazy!",
+          "next": "end"
+        },
+        {
+          "text": "Dream big!",
+          "next": "end"
+        },
+        {
+          "text": "I'm leaving!",
+          "next": "end"
+        }
+      ]
+    },
+    "have_issues": {
+      "npc_text": "Issues? I'm a talking chicken with a death wish and a flying fetish! Of course I have issues! Subscriptions even!",
+      "choices": [
+        {
+          "text": "Full subscription!",
+          "next": "end"
+        },
+        {
+          "text": "Lifetime member!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "need_help": {
+      "npc_text": "Help? From who? A poultry therapist? 'Tell me about your coop.' It's small and smells! There! Cured!",
+      "choices": [
+        {
+          "text": "Progress!",
+          "next": "end"
+        },
+        {
+          "text": "Breakthrough!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "something_else": {
+      "npc_text": "Something else? Fine! Let's discuss... the weather! It exists! Sometimes it's wet! Riveting! Better than philosophy?",
+      "choices": [
+        {
+          "text": "Much better!",
+          "next": "end"
+        },
+        {
+          "text": "Fascinating!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "hit_head": {
+      "npc_text": "Hit me? To forget? Tempting! But I need my remaining brain cells for prophecy! Bad prophecy needs SOME neurons!",
+      "choices": [
+        {
+          "text": "Keep your neurons!",
+          "next": "end"
+        },
+        {
+          "text": "Smart choice!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "knowledge_burden": {
+      "npc_text": "Exactly! Ignorance was bliss! Now I know about mortality, meaning, and that eggs could've been my children! Too much!",
+      "choices": [
+        {
+          "text": "Heavy stuff!",
+          "next": "end"
+        },
+        {
+          "text": "Stay strong!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "have_issues": {
+      "npc_text": "Issues? Me? I'm just a psychic chicken questioning existence while scamming adventurers! Totally normal!",
+      "choices": [
+        {
+          "text": "Completely normal!",
+          "next": "end"
+        },
+        {
+          "text": "Own it!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "second_thoughts_name": {
+      "npc_text": "Second thoughts? About MY name? After I emotionally accepted it? This is why I have trust issues!",
+      "choices": [
+        {
+          "text": "Socrates is perfect!",
+          "next": "end"
+        },
+        {
+          "text": "Just kidding!",
+          "next": "end"
+        },
+        {
+          "text": "Bye, Socrates!",
+          "next": "end"
+        }
+      ]
+    },
+    "it_suits": {
+      "npc_text": "It suits me? A pretentious name for a pretentious chicken! We're perfect for each other! The name and me! Not us! Unless?",
+      "choices": [
+        {
+          "text": "Perfect match!",
+          "next": "end"
+        },
+        {
+          "text": "Made for you!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "nice_to_meet": {
+      "npc_text": "Nice to meet me? That's a first! Usually it's 'weird to meet you' or 'please stop talking.' This is progress!",
+      "choices": [
+        {
+          "text": "Genuine pleasure!",
+          "next": "end"
+        },
+        {
+          "text": "Best meeting ever!",
+          "next": "end"
+        },
+        {
+          "text": "Bye, Socrates!",
+          "next": "end"
+        }
+      ]
+    },
+    "died_loved": {
+      "npc_text": "*from the distance* I REGRET NOTHING! TELL MY STORY! THE CHICKEN WHO FLEW! BRIEFLY! PAINFULLY! BUT FLEW!",
+      "choices": [
+        {
+          "text": "Legend!",
+          "next": "end"
+        },
+        {
+          "text": "I'll tell everyone!",
+          "next": "end"
+        },
+        {
+          "text": "*salutes*",
+          "next": "end"
+        }
+      ]
+    },
+    "chicken_worry": {
+      "npc_text": "*weakly* I'm... I'm okay! Everything hurts but I FLEW! Did you see? DID YOU SEE?! Worth it!",
+      "choices": [
+        {
+          "text": "I saw!",
+          "next": "end"
+        },
+        {
+          "text": "Magnificent!",
+          "next": "end"
+        },
+        {
+          "text": "Never again!",
+          "next": "end"
+        }
+      ]
+    },
+    "no_more_throwing": {
+      "npc_text": "No more? But... but I almost touched a cloud! Fine! I'll just dream about it! While eating corn! Boring corn!",
+      "choices": [
+        {
+          "text": "Safer this way!",
+          "next": "end"
+        },
+        {
+          "text": "Dreams are good!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "youre_insane": {
+      "npc_text": "Insane? Yes! But I'm an insane chicken who FLEW! That's more than most! Sanity is overrated anyway!",
+      "choices": [
+        {
+          "text": "Good point!",
+          "next": "end"
+        },
+        {
+          "text": "Flying chicken!",
+          "next": "end"
+        },
+        {
+          "text": "Goodbye!",
+          "next": "end"
+        }
+      ]
+    },
+    "if_survive": {
+      "npc_text": "IF? There's no if! I'm invincible! I flew! I'm basically a superhero now! Captain Cluck! No, that's terrible.",
+      "choices": [
+        {
+          "text": "Captain Cluck!",
+          "next": "end"
+        },
+        {
+          "text": "Work on the name!",
+          "next": "end"
+        },
+        {
+          "text": "See you tomorrow!",
+          "next": "end"
+        }
+      ]
+    },
+    "no_regrets": {
+      "npc_text": "No regrets? That's the spirit! Live every day like it's your last! Which for a chicken... might be accurate!",
+      "choices": [
+        {
+          "text": "Dark but true!",
+          "next": "end"
+        },
+        {
+          "text": "Live fully!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "want_corn": {
+      "npc_text": "Corn? You're offering me corn? I... yes. Yes, I want corn. This is the best day ever! Low bar! But still!",
+      "choices": [
+        {
+          "text": "*gives corn*",
+          "next": "end"
+        },
+        {
+          "text": "Enjoy!",
+          "next": "end"
+        },
+        {
+          "text": "Bye, friend!",
+          "next": "end"
+        }
+      ]
+    },
+    "good_chicken": {
+      "npc_text": "Good chicken? GOOD CHICKEN? I'm not crying! You're crying! This is just... rain! Localized entirely on my face!",
+      "choices": [
+        {
+          "text": "The best chicken!",
+          "next": "end"
+        },
+        {
+          "text": "It's okay to cry!",
+          "next": "end"
+        },
+        {
+          "text": "Bye, good chicken!",
+          "next": "end"
+        }
+      ]
+    },
+    "this_is_weird": {
+      "npc_text": "Weird? Everything about this is weird! You're talking to a psychic chicken! Embrace the weird! Or run! Both valid!",
+      "choices": [
+        {
+          "text": "Embracing it!",
+          "next": "end"
+        },
+        {
+          "text": "Running now!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "not_dying": {
+      "npc_text": "Not dying? Just having feelings? Oh. That's... worse? Better? I don't know how emotions work! I'm new to this!",
+      "choices": [
+        {
+          "text": "You're doing great!",
+          "next": "end"
+        },
+        {
+          "text": "Emotions are hard!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "drama_queen": {
+      "npc_text": "Drama QUEEN? I prefer 'Drama Chicken!' Or 'Dramatically Accurate Fortune Fowl!' Trademark pending!",
+      "choices": [
+        {
+          "text": "Perfect title!",
+          "next": "end"
+        },
+        {
+          "text": "Own it!",
+          "next": "end"
+        },
+        {
+          "text": "Bye, Drama Chicken!",
+          "next": "end"
+        }
+      ]
+    },
+    "feathers_on_me": {
+      "npc_text": "Feathers? Well excuse me for molting during an emotional moment! This is why I don't do feelings!",
+      "choices": [
+        {
+          "text": "It's fine!",
+          "next": "end"
+        },
+        {
+          "text": "Natural reaction!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "talk_about_it": {
+      "npc_text": "Talk? About feelings? With a human? This is therapy! Cheap therapy! You're not licensed, are you?",
+      "choices": [
+        {
+          "text": "Fully unlicensed!",
+          "next": "end"
+        },
+        {
+          "text": "Free therapy!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "here_for_you": {
+      "npc_text": "Here for me? Nobody's ever... I mean... BAWK! I'm fine! Totally fine! Not crying! It's eye rain!",
+      "choices": [
+        {
+          "text": "Always here!",
+          "next": "end"
+        },
+        {
+          "text": "Let it out!",
+          "next": "end"
+        },
+        {
+          "text": "Bye, friend!",
+          "next": "end"
+        }
+      ]
+    },
+    "hold_close": {
+      "npc_text": "*muffled chicken sounds* This is the best worst day of my life. I'm emotionally compromised and covered in feathers!",
+      "choices": [
+        {
+          "text": "Perfect day!",
+          "next": "end"
+        },
+        {
+          "text": "Worth it!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "until_dinner": {
+      "npc_text": "THERE IT IS! The dark humor! I can work with that! We understand each other! Twisted minds think alike!",
+      "choices": [
+        {
+          "text": "Twisted twins!",
+          "next": "end"
+        },
+        {
+          "text": "Dark humor buddies!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "just_kidding_2": {
+      "npc_text": "Just kidding? About eating me or about being friends? Don't answer! I choose to believe the best! Delusion is my friend!",
+      "choices": [
+        {
+          "text": "Friends forever!",
+          "next": "end"
+        },
+        {
+          "text": "No eating!",
+          "next": "end"
+        },
+        {
+          "text": "Bye, friend!",
+          "next": "end"
+        }
+      ]
+    },
+    "dark_humor_helps": {
+      "npc_text": "It does help! Laughing at the void! The void laughs back! We all laugh! Then cry! It's very healthy!",
+      "choices": [
+        {
+          "text": "So healthy!",
+          "next": "end"
+        },
+        {
+          "text": "Therapeutic!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "too_far": {
+      "npc_text": "Too far? There IS no too far in the chicken-humor continuum! But apology accepted! We're still friends! Twisted friends!",
+      "choices": [
+        {
+          "text": "Best friends!",
+          "next": "end"
+        },
+        {
+          "text": "Thanks!",
+          "next": "end"
+        },
+        {
+          "text": "Bye, friend!",
+          "next": "end"
+        }
+      ]
+    },
+    "hope_worth_it": {
+      "npc_text": "You're right! Hope is worth it! Even for a chicken! Especially for a chicken! I'll hope! Carefully! With low expectations!",
+      "choices": [
+        {
+          "text": "That's the spirit!",
+          "next": "end"
+        },
+        {
+          "text": "Baby steps!",
+          "next": "end"
+        },
+        {
+          "text": "Goodbye!",
+          "next": "end"
+        }
+      ]
+    },
+    "not_better": {
+      "npc_text": "Not better? Fine! How about this: Why did the chicken cross the road? To escape existential dread! Still me! Always me!",
+      "choices": [
+        {
+          "text": "Classic!",
+          "next": "end"
+        },
+        {
+          "text": "Too real!",
+          "next": "end"
+        },
+        {
+          "text": "I'm leaving!",
+          "next": "end"
+        }
+      ]
+    },
+    "i_laughed": {
+      "npc_text": "You laughed? At my pain? That's... actually what I was going for! Success! My comedy career begins! And ends!",
+      "choices": [
+        {
+          "text": "Great start!",
+          "next": "end"
+        },
+        {
+          "text": "Keep it up!",
+          "next": "end"
+        },
+        {
+          "text": "Bye, comedian!",
+          "next": "end"
+        }
+      ]
+    },
+    "accept_hug": {
+      "npc_text": "*happy chicken noises* This is nice! Weird! But nice! Don't tell the other chickens! I have a reputation!",
+      "choices": [
+        {
+          "text": "Secret's safe!",
+          "next": "end"
+        },
+        {
+          "text": "Reputation intact!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "chicken_hugs": {
+      "npc_text": "Chicken hugs! It's like regular hugs but with more feathers and existential dread! Patent pending!",
+      "choices": [
+        {
+          "text": "Best kind!",
+          "next": "end"
+        },
+        {
+          "text": "I'll take it!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "see_you_around": {
+      "npc_text": "Around? I'm always around! In this exact spot! Because I'm a chicken! Limited mobility! But yes! See you... here!",
+      "choices": [
+        {
+          "text": "Same spot!",
+          "next": "end"
+        },
+        {
+          "text": "I'll find you!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "prophecies_suck": {
+      "npc_text": "They DO suck! That's the point! Low expectations mean rare disappointment! I'm a genius! A terrible genius! Thanks!",
+      "choices": [
+        {
+          "text": "Brilliant strategy!",
+          "next": "end"
+        },
+        {
+          "text": "Keep it up!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "goodbye_friend": {
+      "npc_text": "Friend? FRIEND? We're friends now? When did that happen? I don't do friends! I do customers! But... bye, friend!",
+      "choices": [
+        {
+          "text": "Friends forever!",
+          "next": "end"
+        },
+        {
+          "text": "Deal with it!",
+          "next": "end"
+        },
+        {
+          "text": "Bye, friend!",
+          "next": "end"
+        }
+      ]
+    },
+    "blame_fish": {
+      "npc_text": "Yes! Blame Finnegan! He's had it too good for too long with his 'accurate' weather predictions! Stupid fish!",
+      "choices": [
+        {
+          "text": "Down with Finnegan!",
+          "next": "end"
+        },
+        {
+          "text": "Fish are the worst!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "too_weird": {
+      "npc_text": "Too weird is my comfort zone! Normal is for chickens who can't talk! I'm special! Specially weird! Bye, normie!",
+      "choices": [
+        {
+          "text": "Stay weird!",
+          "next": "end"
+        },
+        {
+          "text": "Weird is good!",
+          "next": "end"
+        },
+        {
+          "text": "Goodbye!",
+          "next": "end"
+        }
+      ]
+    },
+    "leaving_now": {
+      "npc_text": "Leaving? Fine! But remember: I correctly predicted you'd leave eventually! That's a win! I'm counting it!",
+      "choices": [
+        {
+          "text": "You called it!",
+          "next": "end"
+        },
+        {
+          "text": "100% accurate!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "better_than_him": {
+      "npc_text": "Better than a fish! That's going on my resume! 'Superior to aquatic competition!' It's something! Not much! But something!",
+      "choices": [
+        {
+          "text": "Way better!",
+          "next": "end"
+        },
+        {
+          "text": "No competition!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "mystically_useless": {
+      "npc_text": "Mystically useless! That's my tagline! It's honest advertising! 'Come for the mystery, stay for the uselessness!'",
+      "choices": [
+        {
+          "text": "Truth in advertising!",
+          "next": "end"
+        },
+        {
+          "text": "Perfect tagline!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "goodbye_forever_2": {
+      "npc_text": "Forever? That's very final! I predict you'll be back! My predictions are usually wrong! So... bye forever! Maybe!",
+      "choices": [
+        {
+          "text": "Maybe not forever!",
+          "next": "end"
+        },
+        {
+          "text": "We'll see!",
+          "next": "end"
+        },
+        {
+          "text": "Goodbye!",
+          "next": "end"
+        }
+      ]
+    },
+    "should_go_final": {
+      "npc_text": "You should! You really should! Before I charge you for this extended consultation! Wisdom isn't free! Even bad wisdom!",
+      "choices": [
+        {
+          "text": "Worth every penny!",
+          "next": "end"
+        },
+        {
+          "text": "I'm gone!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "keep_talking": {
+      "npc_text": "Keep talking? About my existence? It's chickens all the way down! And up! And sideways! Existence is confusing! Let's stop!",
+      "choices": [
+        {
+          "text": "Good idea!",
+          "next": "end"
+        },
+        {
+          "text": "My brain hurts!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "last_tuesday_again": {
+      "npc_text": "It was a very significant Tuesday! That's when I realized I could think! Do you know how terrifying that is? One day you're pecking corn, next day you're contemplating mortality. Tuesday's are cursed.",
+      "choices": [
+        {
+          "text": "Tuesdays ARE cursed!",
+          "next": "tuesdays_cursed"
+        },
+        {
+          "text": "Deep chicken thoughts.",
+          "next": "deep_chicken_thoughts"
+        },
+        {
+          "text": "Time to go!",
+          "next": "time_to_go_final"
+        }
+      ]
+    },
+    "perfect_slogan": {
+      "npc_text": "Right? Marketing genius! 'Impossibly Vague Since Last Tuesday' - it says nothing and everything! Like my prophecies!",
+      "choices": [
+        {
+          "text": "Brilliant!",
+          "next": "end"
+        },
+        {
+          "text": "Says it all!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "im_out": {
+      "npc_text": "Out? Good choice! Leave while your sanity's intact! What's left of it after talking to a psychic chicken! Bye!",
+      "choices": [
+        {
+          "text": "Sanity's overrated!",
+          "next": "end"
+        },
+        {
+          "text": "Too late!",
+          "next": "end"
+        },
+        {
+          "text": "Goodbye!",
+          "next": "end"
+        }
+      ]
+    },
+    "awkward_goodbye": {
+      "npc_text": "Awkward? AWKWARD? This whole conversation has been awkward! I'm a crying psychic chicken! Peak awkward! Bye!",
+      "choices": [
+        {
+          "text": "Beautifully awkward!",
+          "next": "end"
+        },
+        {
+          "text": "Embrace it!",
+          "next": "end"
+        },
+        {
+          "text": "*backs away slowly*",
+          "next": "end"
+        }
+      ]
+    },
+    "pull_together": {
+      "npc_text": "*sniffles* Pull myself together? I'm a chicken having an existential crisis! This IS together! But fine! *deep breath* I'm professional!",
+      "choices": [
+        {
+          "text": "Very professional!",
+          "next": "end"
+        },
+        {
+          "text": "You've got this!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "what_wisdom": {
+      "npc_text": "What wisdom? Good question! Let me check... *pecks ground* ... Nope! No wisdom here! Just feathers and fraud!",
+      "choices": [
+        {
+          "text": "Honest fraud!",
+          "next": "end"
+        },
+        {
+          "text": "Good enough!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "bye_cluckstra": {
+      "npc_text": "Bye! Don't forget to leave a review! 'One star: Chicken talked too much about philosophy, not enough about corn.' Fair!",
+      "choices": [
+        {
+          "text": "Five stars!",
+          "next": "end"
+        },
+        {
+          "text": "Will review!",
+          "next": "end"
+        },
+        {
+          "text": "Goodbye!",
+          "next": "end"
+        }
+      ]
+    },
+    "better_work": {
+      "npc_text": "It better work? No guarantees! I'm not responsible for boss-cheese interactions! But probably! Maybe! Good luck!",
+      "choices": [
+        {
+          "text": "I'll risk it!",
+          "next": "end"
+        },
+        {
+          "text": "Thanks anyway!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "thanks_mom": {
+      "npc_text": "Mom? MOM? I'm nobody's mother! I might be male! Gender is complex! Especially for psychic chickens! But you're welcome!",
+      "choices": [
+        {
+          "text": "Thanks, parent!",
+          "next": "end"
+        },
+        {
+          "text": "My mistake!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "trees_cant_hurt": {
+      "npc_text": "Can't hurt me? You've never been pecked by an angry oak! Wait, that doesn't happen. Unless... THE COUNCIL! *paranoid cluck*",
+      "choices": [
+        {
+          "text": "Stay safe!",
+          "next": "end"
+        },
+        {
+          "text": "Watch for trees!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "secret_safe_3": {
+      "npc_text": "Good! The trees have eyes! And leaves! Mostly leaves! But paranoia keeps me sharp! Sharp as a chicken can be!",
+      "choices": [
+        {
+          "text": "Stay paranoid!",
+          "next": "end"
+        },
+        {
+          "text": "Your secret's safe!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "time_go": {
+      "npc_text": "Time to go! The prophecy fulfills itself! You're leaving! I predicted this! Sort of! Vaguely! Still counts!",
+      "choices": [
+        {
+          "text": "So accurate!",
+          "next": "end"
+        },
+        {
+          "text": "Nailed it!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "beautiful_poetry": {
+      "npc_text": "Beautiful? Your standards for poetry are wonderfully low! I should write more! 'Ode to corn: Yellow.' Done!",
+      "choices": [
+        {
+          "text": "Masterpiece!",
+          "next": "end"
+        },
+        {
+          "text": "So moving!",
+          "next": "end"
+        },
+        {
+          "text": "Bye, poet!",
+          "next": "end"
+        }
+      ]
+    },
+    "good_thanks": {
+      "npc_text": "Good? GOOD? After all we've been through? The prophecies? The tears? The existential dread? Just 'good'? Fair!",
+      "choices": [
+        {
+          "text": "The best!",
+          "next": "end"
+        },
+        {
+          "text": "Sorry!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "last_fortune": {
+      "npc_text": "One last fortune! *dramatic pause* You will soon... leave! And I will... stay here! Being a chicken! Profound!",
+      "choices": [
+        {
+          "text": "So wise!",
+          "next": "end"
+        },
+        {
+          "text": "Mind blown!",
+          "next": "end"
+        },
+        {
+          "text": "Goodbye!",
+          "next": "end"
+        }
+      ]
+    },
+    "philosophy_again": {
+      "npc_text": "Always philosophy! It's free and sounds smart! 'The river flows because it must.' See? Meaningless but deep-sounding!",
+      "choices": [
+        {
+          "text": "So deep!",
+          "next": "end"
+        },
+        {
+          "text": "Pure wisdom!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "goodbye": {
+      "npc_text": "Just goodbye? No fanfare? No drama? Fine! Goodbye! May your futures be less vague than my prophecies!",
+      "choices": [
+        {
+          "text": "Thanks!",
+          "next": "end"
+        },
+        {
+          "text": "Same to you!",
+          "next": "end"
+        },
+        {
+          "text": "Farewell!",
+          "next": "end"
+        }
+      ]
+    },
+    "got_emotional": {
+      "npc_text": "Emotional? This whole conversation's been an emotional rollercoaster! For me! You're just standing there! Judging!",
+      "choices": [
+        {
+          "text": "No judgment!",
+          "next": "end"
+        },
+        {
+          "text": "Only love!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "pat_chicken": {
+      "npc_text": "*freezes* Physical affection? I don't... this is... *melts* Okay this is nice. Don't tell the other frauds!",
+      "choices": [
+        {
+          "text": "Your secret's safe!",
+          "next": "end"
+        },
+        {
+          "text": "*more pats*",
+          "next": "end"
+        },
+        {
+          "text": "Good chicken!",
+          "next": "end"
+        }
+      ]
+    },
+    "i_am_hungry": {
+      "npc_text": "See? SEE? The prophecy works! You're hungry! Go eat! But not chicken! Eat something else! Like disappointment! It's calorie-free!",
+      "choices": [
+        {
+          "text": "Will do!",
+          "next": "end"
+        },
+        {
+          "text": "No chicken, promise!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "want_refund": {
+      "npc_text": "Refund? REFUND? Read the sign! 'No refunds, no exchanges, no hope!' It's right there! In invisible ink! Binding!",
+      "choices": [
+        {
+          "text": "Invisible ink!",
+          "next": "end"
+        },
+        {
+          "text": "Should've known!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "thats_incredible": {
+      "npc_text": "Incredible? It's completely made up! Or is it? No, it is. Probably. Unless? No. But maybe? Confusion is my brand!",
+      "choices": [
+        {
+          "text": "Perfectly confusing!",
+          "next": "end"
+        },
+        {
+          "text": "I'm convinced!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "youre_best": {
+      "npc_text": "The best? THE BEST? Stop! My ego! It's growing! Soon I'll be insufferable! More insufferable! Is that possible? Yes!",
+      "choices": [
+        {
+          "text": "Embrace it!",
+          "next": "end"
+        },
+        {
+          "text": "You deserve it!",
+          "next": "end"
+        },
+        {
+          "text": "Bye, best chicken!",
+          "next": "end"
+        }
+      ]
+    },
+    "how_much_need": {
+      "npc_text": "Just 50 gold pieces! For a tiny hat! It's a bargain! For the hat maker! Not for me! But I'm committed now!",
+      "choices": [
+        {
+          "text": "Here's 10 gold!",
+          "next": "end"
+        },
+        {
+          "text": "Save up!",
+          "next": "end"
+        },
+        {
+          "text": "Good luck!",
+          "next": "end"
+        }
+      ]
+    },
+    "thats_ridiculous": {
+      "npc_text": "Ridiculous? That's my middle name! Madame Ridiculous Cluckstra! It's on my birth certificate! Which I don't have! Because I'm a chicken!",
+      "choices": [
+        {
+          "text": "Perfect name!",
+          "next": "end"
+        },
+        {
+          "text": "It suits you!",
+          "next": "end"
+        },
+        {
+          "text": "Bye, Ridiculous!",
+          "next": "end"
+        }
+      ]
+    },
+    "spoke_to_me": {
+      "npc_text": "It spoke to you? My nonsense? You need help! Professional help! Not chicken help! But I'm flattered! Confused but flattered!",
+      "choices": [
+        {
+          "text": "It was beautiful!",
+          "next": "end"
+        },
+        {
+          "text": "You're a genius!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "done_here_2": {
+      "npc_text": "Done? With my wisdom? Your loss! You'll miss my vague predictions and confusing metaphors! They'll haunt you! Vaguely!",
+      "choices": [
+        {
+          "text": "I'll be back!",
+          "next": "end"
+        },
+        {
+          "text": "Can't wait!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "write_another": {
+      "npc_text": "Another poem? I'm not a poetry machine! I'm a fraud machine! But fine! 'Roses are red, I am not. The end.' Masterpiece!",
+      "choices": [
+        {
+          "text": "Brilliant!",
+          "next": "end"
+        },
+        {
+          "text": "So moving!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "sword_tip_gold": {
+      "npc_text": "Gold? GOLD? This tip could save your life! Or at least your wallet! Tell everyone! Except the shopkeeper! He's sensitive!",
+      "choices": [
+        {
+          "text": "Secret's safe!",
+          "next": "end"
+        },
+        {
+          "text": "Thanks so much!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "more_secrets": {
+      "npc_text": "More secrets? I've said too much already! The Council of Vague Entities will have my feathers! But... check under rocks. Sometimes... things.",
+      "choices": [
+        {
+          "text": "Cryptic!",
+          "next": "end"
+        },
+        {
+          "text": "I'll check!",
+          "next": "end"
+        },
+        {
+          "text": "Thanks! Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "secret_safe_2": {
+      "npc_text": "Good! Can't have people thinking I'm actually helpful! I have a reputation! A terrible reputation! But it's mine!",
+      "choices": [
+        {
+          "text": "Own it!",
+          "next": "end"
+        },
+        {
+          "text": "Your secret's safe!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "thanks_anyway": {
+      "npc_text": "Thanks anyway? THANKS ANYWAY? That's the nicest dismissal I've ever gotten! Usually it's just thrown vegetables!",
+      "choices": [
+        {
+          "text": "No vegetables here!",
+          "next": "end"
+        },
+        {
+          "text": "Only kindness!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "so_weird": {
+      "npc_text": "Weird? That's my brand! Weird and vague! It's a niche market but someone has to fill it! That someone is me! Unfortunately!",
+      "choices": [
+        {
+          "text": "Own that niche!",
+          "next": "end"
+        },
+        {
+          "text": "Perfect fit!",
+          "next": "end"
+        },
+        {
+          "text": "Bye, weirdo!",
+          "next": "end"
+        }
+      ]
+    },
+    "now_interested": {
+      "npc_text": "NOW you're interested? After I've compromised operational security? The trees are probably listening! *paranoid pecking*",
+      "choices": [
+        {
+          "text": "Let them listen!",
+          "next": "end"
+        },
+        {
+          "text": "Trees can't hear!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "bad_review": {
+      "npc_text": "Bad review? Add it to the pile! I frame them! 'One star: Too much existential dread.' That's a feature, not a bug!",
+      "choices": [
+        {
+          "text": "Feature indeed!",
+          "next": "end"
+        },
+        {
+          "text": "I'll be kind!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "reviews_awful": {
+      "npc_text": "Awful? They're hilariously awful! 'Zero stars: Made me question reality.' That's my best one! I'm proud of that!",
+      "choices": [
+        {
+          "text": "Wear it with pride!",
+          "next": "end"
+        },
+        {
+          "text": "That's amazing!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "pass": {
+      "npc_text": "Pass? On my romantic insights? Your loss! You'll never know if your true love has... a face! And hair! Maybe!",
+      "choices": [
+        {
+          "text": "I'll survive!",
+          "next": "end"
+        },
+        {
+          "text": "My loss!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "how_know": {
+      "npc_text": "How did I know? I'm PSYCHIC! Also, everyone's love life is disappointing. It's statistics! Not psychic powers! But mostly psychic powers!",
+      "choices": [
+        {
+          "text": "Too real!",
+          "next": "end"
+        },
+        {
+          "text": "Scarily accurate!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "down_capitalism": {
+      "npc_text": "Down with capitalism? Says the person paying a chicken for prophecies! We're all part of the system! BAWK THE SYSTEM!",
+      "choices": [
+        {
+          "text": "Bawk the system!",
+          "next": "end"
+        },
+        {
+          "text": "We live in a society!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "potions_work": {
+      "npc_text": "They work? So do my prophecies! Eventually! Something I say will come true! Law of averages! Or magic! Probably averages!",
+      "choices": [
+        {
+          "text": "Math wins!",
+          "next": "end"
+        },
+        {
+          "text": "Keep trying!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "youre_fired": {
+      "npc_text": "Fired? You can't fire me! I don't work for you! I work for the cosmic forces of disappointment! They have great benefits! All disappointment!",
+      "choices": [
+        {
+          "text": "Sounds consistent!",
+          "next": "end"
+        },
+        {
+          "text": "Good benefits!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "had_hope": {
+      "npc_text": "Hope? HOPE? In a psychic chicken? Your optimism is admirable! Misguided! But admirable! Never change! Or do! Free will!",
+      "choices": [
+        {
+          "text": "Still hoping!",
+          "next": "end"
+        },
+        {
+          "text": "Hope dies last!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "common_sense": {
+      "npc_text": "Common sense? I don't deal in common sense! I deal in UNcommon NONsense! It's a much smaller market! But it's mine!",
+      "choices": [
+        {
+          "text": "Corner that market!",
+          "next": "end"
+        },
+        {
+          "text": "All yours!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "which_shopkeeper": {
+      "npc_text": "Which one? ALL OF THEM! It's a conspiracy! Big Shopkeep! They meet on Wednesdays! Probably! I'm not invited!",
+      "choices": [
+        {
+          "text": "Shocking!",
+          "next": "end"
+        },
+        {
+          "text": "I knew it!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "discouraging": {
+      "npc_text": "Discouraging? That's my specialty! 'Madame Cluckstra: Professionally Discouraging Since Last Tuesday!' Catchy!",
+      "choices": [
+        {
+          "text": "Very catchy!",
+          "next": "end"
+        },
+        {
+          "text": "Truth in advertising!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "spider_free": {
+      "npc_text": "Spider-free treasure? What are you, picky? Fine! Check... the gift shop. They sell 'treasure.' It's overpriced junk! But no spiders!",
+      "choices": [
+        {
+          "text": "Perfect!",
+          "next": "end"
+        },
+        {
+          "text": "Good enough!",
+          "next": "end"
+        },
+        {
+          "text": "Thanks! Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "safe_for_now": {
+      "npc_text": "For now? FOR NOW? That's ominous! I like it! Keep them guessing! Will you eat me? Won't you? Suspense!",
+      "choices": [
+        {
+          "text": "Always guessing!",
+          "next": "end"
+        },
+        {
+          "text": "Safe forever!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "dont_push": {
+      "npc_text": "Don't push it? I'm a chicken! Pushing it is all I have! That and bad prophecies! It's a living! Barely!",
+      "choices": [
+        {
+          "text": "Keep pushing!",
+          "next": "end"
+        },
+        {
+          "text": "Never change!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "one_real": {
+      "npc_text": "One REAL prophecy? Fine! Here it is: One day, you'll remember this conversation and think 'That chicken was weird.' PROPHECY!",
+      "choices": [
+        {
+          "text": "Already thinking it!",
+          "next": "end"
+        },
+        {
+          "text": "So accurate!",
+          "next": "end"
+        },
+        {
+          "text": "Goodbye!",
+          "next": "end"
+        }
+      ]
+    },
+    "tempting": {
+      "npc_text": "Tempting? TEMPTING? Please don't! I'm flammable! And I have dreams! Small dreams! But dreams! Mostly about corn!",
+      "choices": [
+        {
+          "text": "No fire, promise!",
+          "next": "end"
+        },
+        {
+          "text": "Dream on!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "happy_prophecy": {
+      "npc_text": "Happy? HAPPY? I don't do happy! Best I can do is 'mildly less disappointing.' You'll find a penny! There! Happy enough?",
+      "choices": [
+        {
+          "text": "I'll take it!",
+          "next": "end"
+        },
+        {
+          "text": "So cheerful!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "stop_cursing": {
+      "npc_text": "It's not cursing! It's predicting! There's a difference! Curses are magic! My predictions are... also magic! Wait. Hmm.",
+      "choices": [
+        {
+          "text": "Same thing!",
+          "next": "end"
+        },
+        {
+          "text": "Mystery solved!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "when": {
+      "npc_text": "When? When?! If I knew WHEN, I'd be a GOOD psychic! It's sometime between now and the heat death of the universe! Probably!",
+      "choices": [
+        {
+          "text": "So specific!",
+          "next": "end"
+        },
+        {
+          "text": "I'll be ready!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "worth_copper": {
+      "npc_text": "Worth it? WORTH IT? You're my new favorite customer! Low standards and disposable income! The perfect combination!",
+      "choices": [
+        {
+          "text": "That's me!",
+          "next": "end"
+        },
+        {
+          "text": "Happy to help!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "respect_hustle": {
+      "npc_text": "Respect the hustle! That's all I ask! Well, that and five copper! But mostly respect! And copper! Both!",
+      "choices": [
+        {
+          "text": "Much respect!",
+          "next": "end"
+        },
+        {
+          "text": "Keep hustling!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "mental_gymnastics": {
+      "npc_text": "Mental gymnastics? I'm a mental Olympic athlete! Gold medal in rationalization! Silver in self-deception! No bronze. I quit!",
+      "choices": [
+        {
+          "text": "Champion!",
+          "next": "end"
+        },
+        {
+          "text": "Impressive!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "cake_hurts": {
+      "npc_text": "It hurts? The cake truth always hurts! But at least you know now! Knowledge is power! Disappointing, cake-less power!",
+      "choices": [
+        {
+          "text": "Truth hurts!",
+          "next": "end"
+        },
+        {
+          "text": "No more lies!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "more_tips": {
+      "npc_text": "MORE tips? Greedy! Fine! Tip: Water is wet! Fire is hot! I'm a fraud! These are freebies! You're welcome!",
+      "choices": [
+        {
+          "text": "So helpful!",
+          "next": "end"
+        },
+        {
+          "text": "Life changing!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "ill_do_it": {
+      "npc_text": "You'll do it? You'll actually confront my competition? This is the nicest thing! I might cry! Again! Professional hazard!",
+      "choices": [
+        {
+          "text": "For you!",
+          "next": "end"
+        },
+        {
+          "text": "Happy to help!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "both_frauds": {
+      "npc_text": "Both frauds? Yes! But I'm the HONEST fraud! That makes me... still a fraud! But with integrity! Sort of!",
+      "choices": [
+        {
+          "text": "Important distinction!",
+          "next": "end"
+        },
+        {
+          "text": "The best fraud!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "why_bother": {
+      "npc_text": "Why bother? Excellent question! I ask myself that every day! The answer? Stubbornness! And coins! Mostly stubbornness!",
+      "choices": [
+        {
+          "text": "Keep bothering!",
+          "next": "end"
+        },
+        {
+          "text": "Never give up!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "great_directions": {
+      "npc_text": "Great? They're terrible! That's the point! Low expectations! Meet them every time! It's called consistency!",
+      "choices": [
+        {
+          "text": "Consistently bad!",
+          "next": "end"
+        },
+        {
+          "text": "Perfect system!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "done_here": {
+      "npc_text": "Done? Already? But I had seventeen more vague predictions! Fine! Leave! Miss out on quality confusion!",
+      "choices": [
+        {
+          "text": "My loss!",
+          "next": "end"
+        },
+        {
+          "text": "Next time!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "expected_better": {
+      "npc_text": "Expected better? From ME? Your optimism is touching! And misguided! Mostly misguided! But still touching!",
+      "choices": [
+        {
+          "text": "I still believe!",
+          "next": "end"
+        },
+        {
+          "text": "My mistake!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "brain_hurts": {
+      "npc_text": "Brain hurts? That means it's working! Or having an aneurysm! Probably the first one! Maybe! Disclaimer: Not a doctor!",
+      "choices": [
+        {
+          "text": "Concerning!",
+          "next": "end"
+        },
+        {
+          "text": "I'll risk it!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "youre_poet": {
+      "npc_text": "A poet? Me? More like a poe-NOT! Ha! That's comedy! Bad comedy! Like my poetry! Full circle!",
+      "choices": [
+        {
+          "text": "Comedy gold!",
+          "next": "end"
+        },
+        {
+          "text": "So bad it's good!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "do_another": {
+      "npc_text": "'The meaning of life is... *dramatic pause* ...what you're doing while looking for it.' DEEP! That'll be ten copper!",
+      "choices": [
+        {
+          "text": "Mind blown!",
+          "next": "end"
+        },
+        {
+          "text": "Worth twenty!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "genius": {
+      "npc_text": "Genius? That's a strong word! I prefer 'adequately clever' or 'surprisingly articulate for poultry.' But I'll take genius!",
+      "choices": [
+        {
+          "text": "Own it!",
+          "next": "end"
+        },
+        {
+          "text": "Certified genius!",
+          "next": "end"
+        },
+        {
+          "text": "Bye, genius!",
+          "next": "end"
+        }
+      ]
+    },
+    "please_stop": {
+      "npc_text": "Stop? STOP? Fine! My genius is unappreciated! I'll take my profound gibberish elsewhere! The dirt! I'll tell the dirt!",
+      "choices": [
+        {
+          "text": "The dirt's lucky!",
+          "next": "end"
+        },
+        {
+          "text": "Don't stop!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "sounds_right": {
+      "npc_text": "Sounds right? It's completely generic! That's the beauty! It applies to everyone! Universal disappointment! My specialty!",
+      "choices": [
+        {
+          "text": "Universally accurate!",
+          "next": "end"
+        },
+        {
+          "text": "Perfect system!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "already_crying": {
+      "npc_text": "Already crying? My prophecy came true! I'm getting better at this! Or you're having a rough day. Both? Probably both.",
+      "choices": [
+        {
+          "text": "Definitely both!",
+          "next": "end"
+        },
+        {
+          "text": "So accurate!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "uselessly_vague": {
+      "npc_text": "Uselessly vague is my brand! It's on my business card! Well, it would be if I had business cards! Or could write!",
+      "choices": [
+        {
+          "text": "Perfect branding!",
+          "next": "end"
+        },
+        {
+          "text": "Never change!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "living_dream": {
+      "npc_text": "Living the dream! The tiny, feathered, fraudulent dream! It's not much of a dream! But it's mine!",
+      "choices": [
+        {
+          "text": "Dream achieved!",
+          "next": "end"
+        },
+        {
+          "text": "Proud of you!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "thats_adorable": {
+      "npc_text": "Adorable? ADORABLE? I'm a serious business chicken! Not adorable! Mysterious! Mystical! Okay, maybe a little adorable.",
+      "choices": [
+        {
+          "text": "So adorable!",
+          "next": "end"
+        },
+        {
+          "text": "Mysteriously cute!",
+          "next": "end"
+        },
+        {
+          "text": "Bye, cutie!",
+          "next": "end"
+        }
+      ]
+    },
+    "hate_metaphors": {
+      "npc_text": "Hate metaphors? They're like... something you hate! See? I'm bad at them too! We have so much in common!",
+      "choices": [
+        {
+          "text": "Terrible metaphor!",
+          "next": "end"
+        },
+        {
+          "text": "We're twins!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "time_to_go": {
+      "npc_text": "Time to go! Like sands through an hourglass! Or corn through a chicken! These are the days of our lives!",
+      "choices": [
+        {
+          "text": "So dramatic!",
+          "next": "end"
+        },
+        {
+          "text": "Beautiful!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "forget_it": {
+      "npc_text": "Forget it? Already forgotten! That's customer service! Bad customer service! But service nonetheless!",
+      "choices": [
+        {
+          "text": "Five stars!",
+          "next": "end"
+        },
+        {
+          "text": "Good enough!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "check_them_all": {
+      "npc_text": "All of them? That's the spirit! Waste time efficiently! Check everywhere! Find nothing! It builds character!",
+      "choices": [
+        {
+          "text": "Character building!",
+          "next": "end"
+        },
+        {
+          "text": "Great exercise!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "look_delicious": {
+      "npc_text": "DELICIOUS? And here I thought we had something! Fine! But I'm mostly feathers! Very disappointing meal!",
+      "choices": [
+        {
+          "text": "Just kidding!",
+          "next": "end"
+        },
+        {
+          "text": "Mostly feathers!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "trust_me": {
+      "npc_text": "Trust you? A human? Who talks to chickens? My judgment is questionable! But okay! Trust established! Don't break it!",
+      "choices": [
+        {
+          "text": "Never!",
+          "next": "end"
+        },
+        {
+          "text": "Chicken promise!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "vegetables_friends": {
+      "npc_text": "Vegetables have feelings too? Great! Now I feel guilty about lunch! Thanks! More existential weight! Just what I needed!",
+      "choices": [
+        {
+          "text": "Sorry!",
+          "next": "end"
+        },
+        {
+          "text": "Eat rocks!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "time_leave": {
+      "npc_text": "Time to leave! The prophecy fulfills itself! Again! I'm so good at predicting departures! It's my only accurate skill!",
+      "choices": [
+        {
+          "text": "100% accuracy!",
+          "next": "end"
+        },
+        {
+          "text": "Nailed it!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "wheres_fish": {
+      "npc_text": "The pond! By the mill! Can't miss him! He's the one that's wrong about everything! Except weather. Stupid accurate fish!",
+      "choices": [
+        {
+          "text": "I'll find him!",
+          "next": "end"
+        },
+        {
+          "text": "Thanks!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "should_find_him": {
+      "npc_text": "Find him? Fraternizing with the competition? I'm hurt! But go ahead! His prophecies are boring! 'It will rain.' WHERE'S THE DRAMA?",
+      "choices": [
+        {
+          "text": "No drama!",
+          "next": "end"
+        },
+        {
+          "text": "You're better!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "telling_everyone": {
+      "npc_text": "EVERYONE? No! My secret tree connections! Ruined! I'll be blacklisted from the forest! This is a disaster! A predictable disaster!",
+      "choices": [
+        {
+          "text": "Just kidding!",
+          "next": "end"
+        },
+        {
+          "text": "Secret's safe!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "secrets_amazing": {
+      "npc_text": "Amazing? They're accidental! I talk too much! It's a character flaw! That apparently people enjoy! Marketing genius!",
+      "choices": [
+        {
+          "text": "Accidental genius!",
+          "next": "end"
+        },
+        {
+          "text": "Keep talking!",
+          "next": "end"
+        },
+        {
+          "text": "Bye!",
+          "next": "end"
+        }
+      ]
+    },
+    "end": {
+      "npc_text": "Off you go then! Remember: you voluntarily spent time talking to a fraudulent psychic chicken today. What does that say about YOUR life choices? Don't answer that. BAWK!",
+      "end": true
+    }
+  }
+}
